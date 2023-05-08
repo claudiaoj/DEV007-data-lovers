@@ -3,14 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Kurale&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/rio2016.png">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Info Atletas</h1>
-    <h2>deportistas</h2>
-    <div id="root"></div>
 
-    <button>Haz click para empezar</button>
+  </head>
+
+  <body class="contenedor">
+        <!--<div id="root"></div>-->
+    <header class="titulo-buscador">
+    <h1 class="title">Info Atletas</h1>
+  
+    <div class="buscador">
+      <input type="text" class="lupa" placeholder="Buscar">
+      <button type="submit" class="lupa">Buscar</button>
+    </div>
+
+    </header>
+
+    <nav class="navegador">
+
+      <!--<select name="select">
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select>
+
+      <select name="select">
+        <option value="value1">Value 1</option>
+        <option value="value2" selected>Value 2</option>
+        <option value="value3">Value 3</option>
+      </select>>-->
+
+      <a href="">Atletas</a>
+      <a href="">Países</a>
+      <a href="">Deportes</a>
+      <a href="">Medalla</a>
+      <a href="">Género</a>
+    
+    </nav>
+
+    <main class="">
+      <section>
+        <h3>Atletas ganadores de Medallas Olimpicas</h3>
+      </section>
+
+      <div id="lista-atletas"></div>
+
+    </main>
 
     <script src="main.js" type="module"></script>
   </body>

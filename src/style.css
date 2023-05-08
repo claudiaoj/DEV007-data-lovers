@@ -1,0 +1,47 @@
+body{ 
+    background: no-repeat url(images/fondo2.png);
+    background-size: cover;
+    font-family: 'Kurale', serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+.titulo-buscador{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.navegador{
+    display: flex;
+    justify-content:space-around;
+    background-color: #1B6F93;
+    
+}
+
+.navegador a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 80px;
+
+}
+
+.navegador a:hover {
+    background-color: #F6FCB6;
+    color: black;
+    
+}
+
