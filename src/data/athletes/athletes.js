@@ -40,7 +40,7 @@ export default {
       "event": "Handball Men's Handball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Saeid Morad Abdevali",
       "gender": "M",
       "height": "170",
@@ -51,7 +51,7 @@ export default {
       "age": 26,
       "event": "Wrestling Men's Middleweight, Greco-Roman",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Denis Mikhaylovich Ablyazin",
       "gender": "M",
@@ -64,7 +64,7 @@ export default {
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Denis Mikhaylovich Ablyazin",
       "gender": "M",
       "height": "161",
@@ -87,7 +87,7 @@ export default {
       "age": 24,
       "event": "Gymnastics Men's Rings",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Matthew \"Matt\" Abood",
       "gender": "M",
@@ -112,7 +112,7 @@ export default {
       "event": "Basketball Men's Basketball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ahmad Abughaush",
       "gender": "M",
       "height": "178",
@@ -123,7 +123,7 @@ export default {
       "age": 20,
       "event": "Taekwondo Men's Featherweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Chantal Achterberg",
       "gender": "F",
@@ -184,7 +184,7 @@ export default {
       "event": "Swimming Men's 50 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Nathan Ghar-Jun Adrian",
       "gender": "M",
       "height": "198",
@@ -219,7 +219,7 @@ export default {
       "age": 27,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Cecil Sebastian Afrika",
       "gender": "M",
@@ -268,7 +268,7 @@ export default {
       "event": "Rhythmic Gymnastics Women's Group",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Sri Wahyuni Agustiani",
       "gender": "F",
       "height": "147",
@@ -279,7 +279,7 @@ export default {
       "age": 21,
       "event": "Weightlifting Women's Flyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Christian Ahlmann",
       "gender": "M",
@@ -292,7 +292,7 @@ export default {
       "event": "Equestrianism Mixed Jumping, Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tontowi Ahmad",
       "gender": "M",
       "height": "179",
@@ -303,7 +303,7 @@ export default {
       "age": 29,
       "event": "Badminton Mixed Doubles",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Matteo Aicardi",
       "gender": "M",
@@ -352,7 +352,7 @@ export default {
       "event": "Athletics Men's 4 x 100 metres Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Taha Akgl",
       "gender": "M",
       "height": "192",
@@ -363,7 +363,7 @@ export default {
       "age": 25,
       "event": "Wrestling Men's Super-Heavyweight, Freestyle",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Murodzhon Kakharovich Akhmadaliyev",
       "gender": "M",
@@ -436,7 +436,7 @@ export default {
       "event": "Fencing Women's Sabre, Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Fehaid Al-Deehani",
       "gender": "M",
       "height": "178",
@@ -459,7 +459,7 @@ export default {
       "age": 52,
       "event": "Shooting Men's Skeet",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jo Qesem Ayela Aleh",
       "gender": "F",
@@ -472,7 +472,7 @@ export default {
       "event": "Sailing Women's Two Person Dinghy",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Artur Aleksanyan",
       "gender": "M",
       "height": "190",
@@ -495,7 +495,7 @@ export default {
       "age": 30,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Abdoul Razak Issoufou Alfaga",
       "gender": "M",
@@ -532,7 +532,7 @@ export default {
       "event": "Beach Volleyball Men's Beach Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kimia Alizadeh Zenoorin",
       "gender": "F",
       "height": "185",
@@ -543,7 +543,7 @@ export default {
       "age": 18,
       "event": "Taekwondo Women's Featherweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Nathon Allen",
       "gender": "M",
@@ -556,7 +556,7 @@ export default {
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Ida Alstad",
       "gender": "F",
       "height": "172",
@@ -567,7 +567,7 @@ export default {
       "age": 31,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lzaro Jorge lvarez Estrada",
       "gender": "M",
@@ -592,7 +592,7 @@ export default {
       "event": "Judo Women's Middleweight",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Marwa Al-Amri",
       "gender": "F",
       "height": "160",
@@ -603,7 +603,7 @@ export default {
       "age": 27,
       "event": "Wrestling Women's Lightweight, Freestyle",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Stanley Amuzie",
       "gender": "M",
@@ -616,7 +616,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "An Ba-Ul",
       "gender": "M",
       "height": "169",
@@ -627,7 +627,7 @@ export default {
       "age": 22,
       "event": "Judo Men's Half-Lightweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "milie Andol",
       "gender": "F",
@@ -796,7 +796,7 @@ export default {
       "event": "Cycling Women's Individual Time Trial",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Emilie Hegh Arntzen",
       "gender": "F",
       "height": "183",
@@ -819,7 +819,7 @@ export default {
       "age": 27,
       "event": "Wrestling Men's Welterweight, Greco-Roman",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Geraldina Rachel \"Dina\" Asher-Smith",
       "gender": "F",
@@ -892,7 +892,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mohd Azizulhasni Awang",
       "gender": "M",
       "height": "166",
@@ -903,7 +903,7 @@ export default {
       "age": 28,
       "event": "Cycling Men's Keirin",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Viktor Axelsen",
       "gender": "M",
@@ -916,7 +916,7 @@ export default {
       "event": "Badminton Men's Singles",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Almaz Ayana Eba",
       "gender": "F",
       "height": "166",
@@ -939,7 +939,7 @@ export default {
       "age": 24,
       "event": "Athletics Women's 10,000 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Camille Anas Ayglon-Saurina",
       "gender": "F",
@@ -988,7 +988,7 @@ export default {
       "event": "Shooting Women's Skeet",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Timea Bacsinszky",
       "gender": "F",
       "height": "170",
@@ -999,7 +999,7 @@ export default {
       "age": 27,
       "event": "Tennis Women's Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Kemar Bailey-Cole",
       "gender": "M",
@@ -1024,7 +1024,7 @@ export default {
       "event": "Swimming Women's 100 metres Backstroke",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Kathleen Baker",
       "gender": "F",
       "height": "173",
@@ -1035,7 +1035,7 @@ export default {
       "age": 19,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Mashu Baker",
       "gender": "M",
@@ -1168,7 +1168,7 @@ export default {
       "event": "Athletics Women's 1,500 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mutaz Essa Barshim",
       "gender": "M",
       "height": "190",
@@ -1179,7 +1179,7 @@ export default {
       "age": 25,
       "event": "Athletics Men's High Jump",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jacob Jepsen Barse",
       "gender": "M",
@@ -1432,7 +1432,7 @@ export default {
       "event": "Swimming Women's 200 metres Butterfly",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mireia Belmonte Garca",
       "gender": "F",
       "height": "170",
@@ -1443,7 +1443,7 @@ export default {
       "age": 25,
       "event": "Swimming Women's 400 metres Individual Medley",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Alexander Belonogoff",
       "gender": "M",
@@ -1492,7 +1492,7 @@ export default {
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "David Sagitovich Belyavsky",
       "gender": "M",
       "height": "165",
@@ -1503,7 +1503,7 @@ export default {
       "age": 24,
       "event": "Gymnastics Men's Parallel Bars",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lars Bender",
       "gender": "M",
@@ -1540,7 +1540,7 @@ export default {
       "event": "Diving Women's Platform",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Meaghan Benfeito",
       "gender": "F",
       "height": "155",
@@ -1551,7 +1551,7 @@ export default {
       "age": 27,
       "event": "Diving Women's Synchronized Platform",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Brittany \"Britt\" Benn",
       "gender": "F",
@@ -1612,7 +1612,7 @@ export default {
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Matej Beu",
       "gender": "M",
       "height": "196",
@@ -1647,7 +1647,7 @@ export default {
       "age": 33,
       "event": "Wrestling Men's Featherweight, Greco-Roman",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Emma Sofia Berglund",
       "gender": "F",
@@ -1744,7 +1744,7 @@ export default {
       "event": "Gymnastics Women's Individual All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Simone Arianne Biles",
       "gender": "F",
       "height": "143",
@@ -1791,7 +1791,7 @@ export default {
       "age": 19,
       "event": "Gymnastics Women's Balance Beam",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Emanuele Birarelli",
       "gender": "M",
@@ -1804,7 +1804,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Stefan Birevi",
       "gender": "M",
       "height": "210",
@@ -1815,7 +1815,7 @@ export default {
       "age": 26,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Suzanne Brigit \"Sue\" Bird",
       "gender": "F",
@@ -1912,7 +1912,7 @@ export default {
       "event": "Swimming Women's 50 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Pernille Blume",
       "gender": "F",
       "height": "170",
@@ -1923,7 +1923,7 @@ export default {
       "age": 22,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jack Bobridge",
       "gender": "M",
@@ -1948,7 +1948,7 @@ export default {
       "event": "Handball Women's Handball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Gauthier Boccard",
       "gender": "M",
       "height": "186",
@@ -1959,7 +1959,7 @@ export default {
       "age": 24,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Gbor Gyula Boczk",
       "gender": "M",
@@ -1984,7 +1984,7 @@ export default {
       "event": "Water Polo Men's Water Polo",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Bogdan Bogdanovi",
       "gender": "M",
       "height": "197",
@@ -2031,7 +2031,7 @@ export default {
       "age": 22,
       "event": "Wrestling Men's Welterweight, Greco-Roman",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Timo Boll",
       "gender": "M",
@@ -2056,7 +2056,7 @@ export default {
       "event": "Athletics Men's 100 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Usain St. Leo Bolt",
       "gender": "M",
       "height": "196",
@@ -2079,7 +2079,7 @@ export default {
       "age": 29,
       "event": "Athletics Men's 4 x 100 metres Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Hamish Byron Bond",
       "gender": "M",
@@ -2104,7 +2104,7 @@ export default {
       "event": "Athletics Men's High Jump",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tom Boon",
       "gender": "M",
       "height": "184",
@@ -2115,7 +2115,7 @@ export default {
       "age": 26,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Joshua \"Josh\" Booth",
       "gender": "M",
@@ -2128,7 +2128,7 @@ export default {
       "event": "Rowing Men's Coxless Fours",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Kjetil Borch",
       "gender": "M",
       "height": "193",
@@ -2139,7 +2139,7 @@ export default {
       "age": 26,
       "event": "Rowing Men's Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Yannick Philippe Andr Borel",
       "gender": "M",
@@ -2200,7 +2200,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Tijana Bokovi",
       "gender": "F",
       "height": "193",
@@ -2211,7 +2211,7 @@ export default {
       "age": 19,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Roger-Yves Bost",
       "gender": "M",
@@ -2224,7 +2224,7 @@ export default {
       "event": "Equestrianism Mixed Jumping, Team",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ins Boubakri",
       "gender": "F",
       "height": "167",
@@ -2235,7 +2235,7 @@ export default {
       "age": 27,
       "event": "Fencing Women's Foil, Individual",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "David Alasdair Boudia",
       "gender": "M",
@@ -2248,7 +2248,7 @@ export default {
       "event": "Diving Men's Platform",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "David Alasdair Boudia",
       "gender": "M",
       "height": "175",
@@ -2259,7 +2259,7 @@ export default {
       "age": 27,
       "event": "Diving Men's Synchronized Platform",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Carline Bouw",
       "gender": "F",
@@ -2296,7 +2296,7 @@ export default {
       "event": "Athletics Women's 100 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Frentorish \"Tori\" Bowie",
       "gender": "F",
       "height": "175",
@@ -2331,7 +2331,7 @@ export default {
       "age": 28,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Julian Brandt",
       "gender": "M",
@@ -2344,7 +2344,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Ana Maria Florentina Brnz-Popescu",
       "gender": "F",
       "height": "175",
@@ -2355,7 +2355,7 @@ export default {
       "age": 31,
       "event": "Fencing Women's epee, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Sophie Charlotte Bray",
       "gender": "F",
@@ -2404,7 +2404,7 @@ export default {
       "event": "Canoeing Men's Canadian Singles, 1,000 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sebastian Brendel",
       "gender": "M",
       "height": "192",
@@ -2427,7 +2427,7 @@ export default {
       "age": 28,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Lawrence Brittain",
       "gender": "M",
@@ -2464,7 +2464,7 @@ export default {
       "event": "Equestrianism Mixed Dressage, Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Kristina Brring-Sprehe",
       "gender": "F",
       "height": "168",
@@ -2475,7 +2475,7 @@ export default {
       "age": 29,
       "event": "Equestrianism Mixed Dressage, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Gayle Broughton",
       "gender": "F",
@@ -2512,7 +2512,7 @@ export default {
       "event": "Athletics Men's 4 x 100 metres Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Christopher Deon \"Chris\" Brown",
       "gender": "M",
       "height": "178",
@@ -2523,7 +2523,7 @@ export default {
       "age": 37,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Kyle Gie Brown",
       "gender": "M",
@@ -2572,7 +2572,7 @@ export default {
       "event": "Triathlon Men's Olympic Distance",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Kristoffer Brun",
       "gender": "M",
       "height": "175",
@@ -2583,7 +2583,7 @@ export default {
       "age": 28,
       "event": "Rowing Men's Lightweight Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Manuel Brunet",
       "gender": "M",
@@ -2764,7 +2764,7 @@ export default {
       "event": "Sailing Men's One Person Dinghy",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Bianka Bua",
       "gender": "F",
       "height": "187",
@@ -2775,7 +2775,7 @@ export default {
       "age": 22,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Andro Bulje",
       "gender": "M",
@@ -2824,7 +2824,7 @@ export default {
       "event": "Hockey Men's Hockey",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Dajana Butulija",
       "gender": "F",
       "height": "175",
@@ -2835,7 +2835,7 @@ export default {
       "age": 30,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Denia Caballero Ponce",
       "gender": "F",
@@ -2872,7 +2872,7 @@ export default {
       "event": "Diving Women's Springboard",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tania Cagnotto (-Parolin)",
       "gender": "F",
       "height": "160",
@@ -2883,7 +2883,7 @@ export default {
       "age": 31,
       "event": "Diving Women's Synchronized Springboard",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Cai Zelin",
       "gender": "M",
@@ -2992,7 +2992,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Cate Natalie Campbell",
       "gender": "F",
       "height": "186",
@@ -3003,7 +3003,7 @@ export default {
       "age": 24,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Veronica Angella Campbell-Brown",
       "gender": "F",
@@ -3028,7 +3028,7 @@ export default {
       "event": "Shooting Men's Air Rifle, 10 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Niccol Campriani",
       "gender": "M",
       "height": "177",
@@ -3051,7 +3051,7 @@ export default {
       "age": 35,
       "event": "Cycling Men's Individual Time Trial",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Cao Yuan",
       "gender": "M",
@@ -3064,7 +3064,7 @@ export default {
       "event": "Diving Men's Springboard",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Cao Yuan",
       "gender": "M",
       "height": "160",
@@ -3075,7 +3075,7 @@ export default {
       "age": 21,
       "event": "Diving Men's Synchronized Springboard",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jazmin Roxy \"Jazz\" Carlin",
       "gender": "F",
@@ -3088,7 +3088,7 @@ export default {
       "event": "Swimming Women's 400 metres Freestyle",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Jazmin Roxy \"Jazz\" Carlin",
       "gender": "F",
       "height": "175",
@@ -3099,7 +3099,7 @@ export default {
       "age": 25,
       "event": "Swimming Women's 800 metres Freestyle",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Olivia Frances Carnegie-Brown",
       "gender": "F",
@@ -3136,7 +3136,7 @@ export default {
       "event": "Canoeing Women's Kayak Singles, 200 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Lisa Carrington",
       "gender": "F",
       "height": "168",
@@ -3147,7 +3147,7 @@ export default {
       "age": 27,
       "event": "Canoeing Women's Kayak Singles, 500 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Michelle Denee Carter",
       "gender": "F",
@@ -3232,7 +3232,7 @@ export default {
       "event": "Cycling Men's Omnium",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Saa ao",
       "gender": "F",
       "height": "178",
@@ -3243,7 +3243,7 @@ export default {
       "age": 27,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Matthew Gerald \"Matt\" Centrowitz, Jr.",
       "gender": "M",
@@ -3280,7 +3280,7 @@ export default {
       "event": "Swimming Men's 100 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kyle Chalmers",
       "gender": "M",
       "height": "193",
@@ -3303,7 +3303,7 @@ export default {
       "age": 18,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Frank Chamizo Marquez",
       "gender": "M",
@@ -3328,7 +3328,7 @@ export default {
       "event": "Fencing Men's Foil, Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Chan Peng Soon",
       "gender": "M",
       "height": "175",
@@ -3339,7 +3339,7 @@ export default {
       "age": 28,
       "event": "Badminton Mixed Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Chang Hye-Jin",
       "gender": "F",
@@ -3352,7 +3352,7 @@ export default {
       "event": "Archery Women's Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Chang Hye-Jin",
       "gender": "F",
       "height": "158",
@@ -3363,7 +3363,7 @@ export default {
       "age": 29,
       "event": "Archery Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Allysha Chapman",
       "gender": "F",
@@ -3388,7 +3388,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Cdric Charlier",
       "gender": "M",
       "height": "181",
@@ -3399,7 +3399,7 @@ export default {
       "age": 28,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Yuriy Volodymyrovych Cheban",
       "gender": "M",
@@ -3436,7 +3436,7 @@ export default {
       "event": "Diving Men's Platform",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Chen Aisen",
       "gender": "M",
       "height": "168",
@@ -3459,7 +3459,7 @@ export default {
       "age": 27,
       "event": "Badminton Men's Singles",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Chen Peina",
       "gender": "F",
@@ -3496,7 +3496,7 @@ export default {
       "event": "Judo Men's Middleweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Cheong Jun Hoong",
       "gender": "F",
       "height": "150",
@@ -3507,7 +3507,7 @@ export default {
       "age": 26,
       "event": "Diving Women's Synchronized Platform",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Aleksey Borisovich Cheremisinov",
       "gender": "M",
@@ -3544,7 +3544,7 @@ export default {
       "event": "Athletics Women's 5,000 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Vivian Jepkemoi Cheruiyot",
       "gender": "F",
       "height": "153",
@@ -3555,7 +3555,7 @@ export default {
       "age": 32,
       "event": "Athletics Women's 10,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Vlada Aleksandrovna Chigiryova",
       "gender": "F",
@@ -3580,7 +3580,7 @@ export default {
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Choe Hyo-Sim",
       "gender": "F",
       "height": "159",
@@ -3591,7 +3591,7 @@ export default {
       "age": 22,
       "event": "Weightlifting Women's Middleweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Choi Mi-Sun",
       "gender": "F",
@@ -3676,7 +3676,7 @@ export default {
       "event": "Rowing Women's Quadruple Sculls",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Cheick Sallah Ciss Junior",
       "gender": "M",
       "height": "186",
@@ -3687,7 +3687,7 @@ export default {
       "age": 22,
       "event": "Taekwondo Men's Welterweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Souleymane Diop Cissokho",
       "gender": "M",
@@ -3832,7 +3832,7 @@ export default {
       "event": "Shooting Women's Trap",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Roxana Gabriela Cogianu",
       "gender": "F",
       "height": "180",
@@ -3855,7 +3855,7 @@ export default {
       "age": 27,
       "event": "Rowing Women's Coxed Eights",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Massimo Colaci",
       "gender": "M",
@@ -3940,7 +3940,7 @@ export default {
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Yasmani Copello Escobar",
       "gender": "M",
       "height": "191",
@@ -3951,7 +3951,7 @@ export default {
       "age": 29,
       "event": "Athletics Men's 400 metres Hurdles",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Kevin Cordes",
       "gender": "M",
@@ -3964,7 +3964,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Tanguy Cosyns",
       "gender": "M",
       "height": "174",
@@ -3975,7 +3975,7 @@ export default {
       "age": 25,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Aleksandra Cotti",
       "gender": "F",
@@ -4036,7 +4036,7 @@ export default {
       "event": "Canoeing Men's Kayak Singles, 200 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Sal Craviotto Rivero",
       "gender": "M",
       "height": "192",
@@ -4047,7 +4047,7 @@ export default {
       "age": 31,
       "event": "Canoeing Men's Kayak Doubles, 200 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Samuel Thomas \"Sam\" Cross",
       "gender": "M",
@@ -4096,7 +4096,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Aleksandra Crvendaki",
       "gender": "F",
       "height": "187",
@@ -4107,7 +4107,7 @@ export default {
       "age": 20,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lszl Cseh, Jr.",
       "gender": "M",
@@ -4132,7 +4132,7 @@ export default {
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Milo uk",
       "gender": "M",
       "height": "191",
@@ -4143,7 +4143,7 @@ export default {
       "age": 25,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Chay Crista Kerio Cullen",
       "gender": "F",
@@ -4216,7 +4216,7 @@ export default {
       "event": "Judo Men's Heavyweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ana Dabovi",
       "gender": "F",
       "height": "183",
@@ -4239,7 +4239,7 @@ export default {
       "age": 34,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Sara Ilonka Dbritz",
       "gender": "F",
@@ -4264,7 +4264,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Ro Masivesi Dakuwaqa",
       "gender": "M",
       "height": "190",
@@ -4275,7 +4275,7 @@ export default {
       "age": 22,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Thomas Robert \"Tom\" Daley",
       "gender": "M",
@@ -4468,7 +4468,7 @@ export default {
       "event": "Athletics Men's 200 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Andre De Grasse",
       "gender": "M",
       "height": "176",
@@ -4479,7 +4479,7 @@ export default {
       "age": 21,
       "event": "Athletics Men's 4 x 100 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Juan Leon de Jongh",
       "gender": "M",
@@ -4576,7 +4576,7 @@ export default {
       "event": "Handball Women's Handball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Mirela Krasimirova Demireva",
       "gender": "F",
       "height": "180",
@@ -4599,7 +4599,7 @@ export default {
       "age": 25,
       "event": "Wrestling Men's Middleweight, Freestyle",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Nicholas Charles \"Nick\" Dempsey",
       "gender": "M",
@@ -4624,7 +4624,7 @@ export default {
       "event": "Canoeing Men's Canadian Singles, 200 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Felix Denayer",
       "gender": "M",
       "height": "190",
@@ -4635,7 +4635,7 @@ export default {
       "age": 26,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Deng Shudi",
       "gender": "M",
@@ -4708,7 +4708,7 @@ export default {
       "event": "Swimming Men's 400 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Gabriele Detti",
       "gender": "M",
       "height": "184",
@@ -4719,7 +4719,7 @@ export default {
       "age": 21,
       "event": "Swimming Men's 1,500 metres Freestyle",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Daniel Deuer",
       "gender": "M",
@@ -4732,7 +4732,7 @@ export default {
       "event": "Equestrianism Mixed Jumping, Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Jolien D'hoore",
       "gender": "F",
       "height": "176",
@@ -4743,7 +4743,7 @@ export default {
       "age": 26,
       "event": "Cycling Women's Omnium",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Marco Di Costanzo",
       "gender": "M",
@@ -4804,7 +4804,7 @@ export default {
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Hidilyn Diaz",
       "gender": "F",
       "height": "149",
@@ -4875,7 +4875,7 @@ export default {
       "age": 47,
       "event": "Shooting Women's Sporting Pistol, 25 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Tina Dietze",
       "gender": "F",
@@ -4888,7 +4888,7 @@ export default {
       "event": "Canoeing Women's Kayak Doubles, 500 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Tina Dietze",
       "gender": "F",
       "height": "172",
@@ -4899,7 +4899,7 @@ export default {
       "age": 28,
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Ding Ning",
       "gender": "F",
@@ -4912,7 +4912,7 @@ export default {
       "event": "Table Tennis Women's Singles",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ding Ning",
       "gender": "F",
       "height": "171",
@@ -4923,7 +4923,7 @@ export default {
       "age": 26,
       "event": "Table Tennis Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Ding Xia",
       "gender": "F",
@@ -4936,7 +4936,7 @@ export default {
       "event": "Volleyball Women's Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Loredana Dinu (Iordchioiu-)",
       "gender": "F",
       "height": "168",
@@ -4947,7 +4947,7 @@ export default {
       "age": 32,
       "event": "Fencing Women's epee, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Adrien Dipanda",
       "gender": "M",
@@ -4972,7 +4972,7 @@ export default {
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Madeline Jane \"Maya\" DiRado",
       "gender": "F",
       "height": "175",
@@ -5007,7 +5007,7 @@ export default {
       "age": 23,
       "event": "Swimming Women's 400 metres Individual Medley",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Carlien Clemens Dirkse van den Heuvel",
       "gender": "F",
@@ -5056,7 +5056,7 @@ export default {
       "event": "Handball Women's Handball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sbastien Dockier",
       "gender": "M",
       "height": "175",
@@ -5079,7 +5079,7 @@ export default {
       "age": 28,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Slvia Domnguez Fernndez",
       "gender": "F",
@@ -5092,7 +5092,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Apisai Raviyawa Domolailai",
       "gender": "M",
       "height": "192",
@@ -5103,7 +5103,7 @@ export default {
       "age": 27,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Dong Bin",
       "gender": "M",
@@ -5128,7 +5128,7 @@ export default {
       "event": "Trampolining Men's Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Dorjnyambuugiin Otgondalai",
       "gender": "M",
       "height": "170",
@@ -5151,7 +5151,7 @@ export default {
       "age": 25,
       "event": "Judo Women's Lightweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sam Dorman",
       "gender": "M",
@@ -5188,7 +5188,7 @@ export default {
       "event": "Canoeing Men's Kayak Singles, 1,000 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Josef Dostl",
       "gender": "M",
       "height": "202",
@@ -5199,7 +5199,7 @@ export default {
       "age": 23,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Gabrielle Christina Victoria \"Gabby\" Douglas",
       "gender": "F",
@@ -5260,7 +5260,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Caeleb Remel Dressel",
       "gender": "M",
       "height": "191",
@@ -5271,7 +5271,7 @@ export default {
       "age": 19,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Derek Drouin",
       "gender": "M",
@@ -5284,7 +5284,7 @@ export default {
       "event": "Athletics Men's High Jump",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Daniela Druncea",
       "gender": "F",
       "height": "150",
@@ -5295,7 +5295,7 @@ export default {
       "age": 25,
       "event": "Rowing Women's Coxed Eights",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Paul Drux",
       "gender": "M",
@@ -5332,7 +5332,7 @@ export default {
       "event": "Shooting Women's Air Rifle, 10 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Du Li",
       "gender": "F",
       "height": "170",
@@ -5343,7 +5343,7 @@ export default {
       "age": 34,
       "event": "Shooting Women's Small-Bore Rifle, Three Positions, 50 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Duan Jingli",
       "gender": "F",
@@ -5368,7 +5368,7 @@ export default {
       "event": "Equestrianism Mixed Dressage, Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Charlotte Susan Jane Dujardin",
       "gender": "F",
       "height": "170",
@@ -5379,7 +5379,7 @@ export default {
       "age": 31,
       "event": "Equestrianism Mixed Dressage, Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Tom Dumoulin",
       "gender": "M",
@@ -5488,7 +5488,7 @@ export default {
       "event": "Swimming Men's 200 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Conor James Dwyer",
       "gender": "M",
       "height": "196",
@@ -5499,7 +5499,7 @@ export default {
       "age": 27,
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Yekaterina Vladimirovna Dyachenko",
       "gender": "F",
@@ -5668,7 +5668,7 @@ export default {
       "event": "Archery Men's Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Brady Lee Ellison",
       "gender": "M",
       "height": "181",
@@ -5679,7 +5679,7 @@ export default {
       "age": 27,
       "event": "Archery Men's Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Amanda Elmore",
       "gender": "F",
@@ -5704,7 +5704,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Brittany Joyce Elmslie",
       "gender": "F",
       "height": "179",
@@ -5715,7 +5715,7 @@ export default {
       "age": 22,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Giulia Enrica Emmolo",
       "gender": "F",
@@ -5728,7 +5728,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Tnu Endrekson",
       "gender": "M",
       "height": "198",
@@ -5739,7 +5739,7 @@ export default {
       "age": 37,
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jessica Phyllis Ennis-Hill",
       "gender": "F",
@@ -5788,7 +5788,7 @@ export default {
       "event": "Swimming Men's 50 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Anthony Lee Ervin",
       "gender": "M",
       "height": "191",
@@ -5799,7 +5799,7 @@ export default {
       "age": 35,
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Srgio \"Escadinha\" Dutra dos Santos",
       "gender": "M",
@@ -5812,7 +5812,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mara del Rosario Espinoza Espinoza",
       "gender": "F",
       "height": "173",
@@ -5823,7 +5823,7 @@ export default {
       "age": 28,
       "event": "Taekwondo Women's Heavyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Chloe Esposito",
       "gender": "F",
@@ -5932,7 +5932,7 @@ export default {
       "event": "Athletics Men's 5,000 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mohamed Muktar Jama \"Mo\" Farah",
       "gender": "M",
       "height": "175",
@@ -5943,7 +5943,7 @@ export default {
       "age": 33,
       "event": "Athletics Men's 10,000 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Bianca Farella",
       "gender": "F",
@@ -6040,7 +6040,7 @@ export default {
       "event": "Athletics Women's 400 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Allyson Michelle Felix",
       "gender": "F",
       "height": "168",
@@ -6063,7 +6063,7 @@ export default {
       "age": 30,
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Feng Shanshan",
       "gender": "F",
@@ -6160,7 +6160,7 @@ export default {
       "event": "Diving Women's Synchronized Platform",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Filip Filipovi",
       "gender": "M",
       "height": "196",
@@ -6171,7 +6171,7 @@ export default {
       "age": 29,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Yoel Segundo Finol Rivas",
       "gender": "M",
@@ -6340,7 +6340,7 @@ export default {
       "event": "Canoeing Women's Kayak Singles, Slalom",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Marit Malm Frafjord",
       "gender": "F",
       "height": "182",
@@ -6351,7 +6351,7 @@ export default {
       "age": 30,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Javon Francis",
       "gender": "M",
@@ -6376,7 +6376,7 @@ export default {
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Tanja Chiara Frank",
       "gender": "F",
       "height": "167",
@@ -6387,7 +6387,7 @@ export default {
       "age": 23,
       "event": "Sailing Mixed Multihull",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Melissa Jeanette \"Missy\" Franklin",
       "gender": "F",
@@ -6424,7 +6424,7 @@ export default {
       "event": "Athletics Women's 100 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Shelly-Ann Fraser-Pryce",
       "gender": "F",
       "height": "160",
@@ -6435,7 +6435,7 @@ export default {
       "age": 29,
       "event": "Athletics Women's 4 x 100 metres Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Teresa Frassinetti",
       "gender": "F",
@@ -6652,7 +6652,7 @@ export default {
       "event": "Water Polo Men's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Steven Gardiner",
       "gender": "M",
       "height": "193",
@@ -6663,7 +6663,7 @@ export default {
       "age": 20,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "English Gardner",
       "gender": "F",
@@ -6796,7 +6796,7 @@ export default {
       "event": "Boxing Men's Light-Welterweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ruth Marie Christelle Gbagbi",
       "gender": "F",
       "height": "176",
@@ -6819,7 +6819,7 @@ export default {
       "age": 22,
       "event": "Athletics Men's 5,000 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Justin Gilberto Geduld",
       "gender": "M",
@@ -6892,7 +6892,7 @@ export default {
       "event": "Swimming Women's 50 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Yarden Gerbi",
       "gender": "F",
       "height": "169",
@@ -6927,7 +6927,7 @@ export default {
       "age": 31,
       "event": "Fencing Women's epee, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Simone Giannelli",
       "gender": "M",
@@ -6940,7 +6940,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Spyridon \"Spyros\" Gianniotis",
       "gender": "M",
       "height": "185",
@@ -6951,7 +6951,7 @@ export default {
       "age": 36,
       "event": "Swimming Men's 10 kilometres Open Water",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Laura Gil Collado",
       "gender": "F",
@@ -7156,7 +7156,7 @@ export default {
       "event": "Rowing Women's Coxed Eights",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "ivko Goci",
       "gender": "M",
       "height": "193",
@@ -7167,7 +7167,7 @@ export default {
       "age": 33,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Lena Goeling",
       "gender": "F",
@@ -7180,7 +7180,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Goh Liu Ying",
       "gender": "F",
       "height": "166",
@@ -7203,7 +7203,7 @@ export default {
       "age": 27,
       "event": "Badminton Men's Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Vladislav Olegovich Goncharov",
       "gender": "M",
@@ -7252,7 +7252,7 @@ export default {
       "event": "Taekwondo Men's Featherweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mara Guadalupe Gonzlez Romero",
       "gender": "F",
       "height": "162",
@@ -7263,7 +7263,7 @@ export default {
       "age": 27,
       "event": "Athletics Women's 20 kilometres Walk",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Daniel Goodfellow",
       "gender": "M",
@@ -7360,7 +7360,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Simon Gougnard",
       "gender": "M",
       "height": "187",
@@ -7371,7 +7371,7 @@ export default {
       "age": 25,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Martine Soffiatti Grael",
       "gender": "F",
@@ -7516,7 +7516,7 @@ export default {
       "event": "Shooting Men's Small-Bore Rifle, Prone, 50 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Kari Aalvik Grimsb",
       "gender": "F",
       "height": "180",
@@ -7527,7 +7527,7 @@ export default {
       "age": 31,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Brittney Yevette Griner",
       "gender": "F",
@@ -7552,7 +7552,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mindaugas Grikonis",
       "gender": "M",
       "height": "190",
@@ -7563,7 +7563,7 @@ export default {
       "age": 30,
       "event": "Rowing Men's Double Sculls",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Marcus Gro",
       "gender": "M",
@@ -7576,7 +7576,7 @@ export default {
       "event": "Canoeing Men's Kayak Doubles, 1,000 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Marcus Gro",
       "gender": "M",
       "height": "182",
@@ -7587,7 +7587,7 @@ export default {
       "age": 26,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Madeline Groves",
       "gender": "F",
@@ -7600,7 +7600,7 @@ export default {
       "event": "Swimming Women's 200 metres Butterfly",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Madeline Groves",
       "gender": "F",
       "height": "179",
@@ -7611,7 +7611,7 @@ export default {
       "age": 21,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Hans Gruhne",
       "gender": "M",
@@ -7636,7 +7636,7 @@ export default {
       "event": "Fencing Men's epee, Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Gauthier Grumier",
       "gender": "M",
       "height": "188",
@@ -7647,7 +7647,7 @@ export default {
       "age": 32,
       "event": "Fencing Men's epee, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Gu Xiao",
       "gender": "F",
@@ -7708,7 +7708,7 @@ export default {
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "James George Guy",
       "gender": "M",
       "height": "187",
@@ -7719,7 +7719,7 @@ export default {
       "age": 20,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Gwak Dong-Han",
       "gender": "M",
@@ -7732,7 +7732,7 @@ export default {
       "event": "Judo Men's Middleweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mario-Elio Gyr",
       "gender": "M",
       "height": "187",
@@ -7743,7 +7743,7 @@ export default {
       "age": 31,
       "event": "Rowing Men's Lightweight Coxless Fours",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Francis Townley Haas",
       "gender": "M",
@@ -7792,7 +7792,7 @@ export default {
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Kosuke Hagino",
       "gender": "M",
       "height": "177",
@@ -7815,7 +7815,7 @@ export default {
       "age": 21,
       "event": "Swimming Men's 400 metres Individual Medley",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Lisa Hahn-Altenburg",
       "gender": "F",
@@ -7888,7 +7888,7 @@ export default {
       "event": "Cycling Women's Team Pursuit",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Sarah Kathryn Hammer (-Sparks)",
       "gender": "F",
       "height": "171",
@@ -7899,7 +7899,7 @@ export default {
       "age": 32,
       "event": "Cycling Women's Omnium",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Ying Han",
       "gender": "F",
@@ -7936,7 +7936,7 @@ export default {
       "event": "Hockey Men's Hockey",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tawin Hanprab",
       "gender": "M",
       "height": "176",
@@ -7947,7 +7947,7 @@ export default {
       "age": 18,
       "event": "Taekwondo Men's Flyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Henrik Toft Hansen",
       "gender": "M",
@@ -7984,7 +7984,7 @@ export default {
       "event": "Cycling Men's Team Pursuit, 4,000 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Lasse Norman Hansen",
       "gender": "M",
       "height": "180",
@@ -7995,7 +7995,7 @@ export default {
       "age": 24,
       "event": "Cycling Men's Omnium",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Mikkel Hansen",
       "gender": "M",
@@ -8200,7 +8200,7 @@ export default {
       "event": "Canoeing Men's Kayak Singles, 200 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Liam Nicholas Heath",
       "gender": "M",
       "height": "182",
@@ -8211,7 +8211,7 @@ export default {
       "age": 31,
       "event": "Canoeing Men's Kayak Doubles, 200 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Erik Heil",
       "gender": "M",
@@ -8320,7 +8320,7 @@ export default {
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Ismael Marcelo Hernndez Uscanga",
       "gender": "M",
       "height": "178",
@@ -8331,7 +8331,7 @@ export default {
       "age": 26,
       "event": "Modern Pentathlon Men's Individual",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lauren Zoe \"Laurie\" Hernandez",
       "gender": "F",
@@ -8344,7 +8344,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Lauren Zoe \"Laurie\" Hernandez",
       "gender": "F",
       "height": "152",
@@ -8355,7 +8355,7 @@ export default {
       "age": 16,
       "event": "Gymnastics Women's Balance Beam",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Nico Miguel Hernandez",
       "gender": "M",
@@ -8392,7 +8392,7 @@ export default {
       "event": "Basketball Men's Basketball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Camilla Herrem",
       "gender": "F",
       "height": "167",
@@ -8403,7 +8403,7 @@ export default {
       "age": 29,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Timm Herzbruch",
       "gender": "M",
@@ -8512,7 +8512,7 @@ export default {
       "event": "Cycling Men's Team Sprint",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Martina Hingis (-Hutin)",
       "gender": "F",
       "height": "170",
@@ -8523,7 +8523,7 @@ export default {
       "age": 35,
       "event": "Tennis Women's Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sophie Hitchon",
       "gender": "F",
@@ -8548,7 +8548,7 @@ export default {
       "event": "Diving Men's Synchronized Springboard",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Hong Xun Vinh",
       "gender": "M",
       "height": "175",
@@ -8571,7 +8571,7 @@ export default {
       "age": 41,
       "event": "Shooting Men's Free Pistol, 50 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Max Hoff",
       "gender": "M",
@@ -8692,7 +8692,7 @@ export default {
       "event": "Swimming Women's 100 metres Backstroke",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Katinka Hossz",
       "gender": "F",
       "height": "175",
@@ -8727,7 +8727,7 @@ export default {
       "age": 27,
       "event": "Swimming Women's 400 metres Individual Medley",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Manon Houette",
       "gender": "F",
@@ -8812,7 +8812,7 @@ export default {
       "event": "Boxing Men's Super-Heavyweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Hsu Shu-Ching",
       "gender": "F",
       "height": "160",
@@ -8823,7 +8823,7 @@ export default {
       "age": 25,
       "event": "Weightlifting Women's Featherweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Cbrayl Hsnov",
       "gender": "M",
@@ -8872,7 +8872,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Huang Xuechen",
       "gender": "F",
       "height": "175",
@@ -8883,7 +8883,7 @@ export default {
       "age": 26,
       "event": "Synchronized Swimming Women's Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Hui Ruoqi",
       "gender": "F",
@@ -8980,7 +8980,7 @@ export default {
       "event": "Wrestling Women's Lightweight, Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mohamed Ihab Youssef Ahmed Mahmoud",
       "gender": "M",
       "height": "165",
@@ -8991,7 +8991,7 @@ export default {
       "age": 26,
       "event": "Weightlifting Men's Middleweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Shota Iizuka",
       "gender": "M",
@@ -9004,7 +9004,7 @@ export default {
       "event": "Athletics Men's 4 x 100 metres Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Cenk ldem",
       "gender": "M",
       "height": "180",
@@ -9015,7 +9015,7 @@ export default {
       "age": 30,
       "event": "Wrestling Men's Heavyweight, Greco-Roman",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Yekaterina Fyodorovna Ilyina",
       "gender": "F",
@@ -9052,7 +9052,7 @@ export default {
       "event": "Fencing Men's epee, Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Gza Imre",
       "gender": "M",
       "height": "184",
@@ -9063,7 +9063,7 @@ export default {
       "age": 41,
       "event": "Fencing Men's epee, Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Marco Innocenti",
       "gender": "M",
@@ -9088,7 +9088,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Yukiko Inui",
       "gender": "F",
       "height": "169",
@@ -9111,7 +9111,7 @@ export default {
       "age": 27,
       "event": "Weightlifting Men's Featherweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Kyrie Andrew Irving",
       "gender": "M",
@@ -9148,7 +9148,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Nataliya Sergeyevna Ishchenko",
       "gender": "F",
       "height": "177",
@@ -9159,7 +9159,7 @@ export default {
       "age": 30,
       "event": "Synchronized Swimming Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Kasumi Ishikawa",
       "gender": "F",
@@ -9184,7 +9184,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Daniar Ismailow",
       "gender": "M",
       "height": "173",
@@ -9195,7 +9195,7 @@ export default {
       "age": 24,
       "event": "Weightlifting Men's Lightweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Mima Ito",
       "gender": "F",
@@ -9244,7 +9244,7 @@ export default {
       "event": "Athletics Women's 400 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Shericka Jackson",
       "gender": "F",
       "height": "173",
@@ -9255,7 +9255,7 @@ export default {
       "age": 22,
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Nicolas Jacobi",
       "gender": "M",
@@ -9328,7 +9328,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Nikola Jaki",
       "gender": "M",
       "height": "197",
@@ -9339,7 +9339,7 @@ export default {
       "age": 19,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Rebecca Angharad \"Becky\" James",
       "gender": "F",
@@ -9352,7 +9352,7 @@ export default {
       "event": "Cycling Women's Sprint",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Rebecca Angharad \"Becky\" James",
       "gender": "F",
       "height": "171",
@@ -9387,7 +9387,7 @@ export default {
       "age": 34,
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Inge Janssen",
       "gender": "F",
@@ -9412,7 +9412,7 @@ export default {
       "event": "Athletics Men's Discus Throw",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ruth Jebet",
       "gender": "F",
       "height": "162",
@@ -9423,7 +9423,7 @@ export default {
       "age": 19,
       "event": "Athletics Women's 3,000 metres Steeplechase",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Lindsay Jennerich",
       "gender": "F",
@@ -9568,7 +9568,7 @@ export default {
       "event": "Tennis Men's Doubles",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Nikola Joki",
       "gender": "M",
       "height": "209",
@@ -9579,7 +9579,7 @@ export default {
       "age": 21,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Maro Jokovi",
       "gender": "M",
@@ -9652,7 +9652,7 @@ export default {
       "event": "Triathlon Women's Olympic Distance",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Nevena Jovanovi",
       "gender": "F",
       "height": "179",
@@ -9675,7 +9675,7 @@ export default {
       "age": 25,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Joseph \"Joe\" Joyce",
       "gender": "M",
@@ -9748,7 +9748,7 @@ export default {
       "event": "Equestrianism Mixed Three-Day Event, Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Michael Jung",
       "gender": "M",
       "height": "168",
@@ -9759,7 +9759,7 @@ export default {
       "age": 34,
       "event": "Equestrianism Mixed Three-Day Event, Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Henri Junghnel",
       "gender": "M",
@@ -9772,7 +9772,7 @@ export default {
       "event": "Shooting Men's Small-Bore Rifle, Prone, 50 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Pavlos Kagialis",
       "gender": "M",
       "height": "184",
@@ -9795,7 +9795,7 @@ export default {
       "age": 24,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Viktoriya Viktorovna Kalinina",
       "gender": "F",
@@ -9820,7 +9820,7 @@ export default {
       "event": "Swimming Men's 400 metres Individual Medley",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Reneta Kamberova",
       "gender": "F",
       "height": "170",
@@ -9831,7 +9831,7 @@ export default {
       "age": 25,
       "event": "Rhythmic Gymnastics Women's Group",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Sergey Igorevich Kamensky",
       "gender": "M",
@@ -9952,7 +9952,7 @@ export default {
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Peter Kauzer",
       "gender": "M",
       "height": "177",
@@ -9963,7 +9963,7 @@ export default {
       "age": 32,
       "event": "Canoeing Men's Kayak Singles, Slalom",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Risako Kawai",
       "gender": "F",
@@ -9976,7 +9976,7 @@ export default {
       "event": "Wrestling Women's Middleweight, Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Rza Kayaalp",
       "gender": "M",
       "height": "182",
@@ -9999,7 +9999,7 @@ export default {
       "age": 20,
       "event": "Rhythmic Gymnastics Women's Group",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Shaun Keeling",
       "gender": "M",
@@ -10036,7 +10036,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Majlinda Kelmendi",
       "gender": "F",
       "height": "162",
@@ -10047,7 +10047,7 @@ export default {
       "age": 25,
       "event": "Judo Women's Half-Lightweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Tabea Kemme",
       "gender": "F",
@@ -10096,7 +10096,7 @@ export default {
       "event": "Cycling Men's Sprint",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Jason Francis Kenny",
       "gender": "M",
       "height": "178",
@@ -10119,7 +10119,7 @@ export default {
       "age": 28,
       "event": "Cycling Men's Team Sprint",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Angelique Kerber",
       "gender": "F",
@@ -10180,7 +10180,7 @@ export default {
       "event": "Fencing Women's Sabre, Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Olha Hennadivna Kharlan",
       "gender": "F",
       "height": "172",
@@ -10203,7 +10203,7 @@ export default {
       "age": 25,
       "event": "Wrestling Men's Featherweight, Freestyle",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Olga Sergeyevna Khudenko",
       "gender": "F",
@@ -10228,7 +10228,7 @@ export default {
       "event": "Archery Women's Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ki Bo-Bae",
       "gender": "F",
       "height": "167",
@@ -10239,7 +10239,7 @@ export default {
       "age": 28,
       "event": "Archery Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Faith Chepngetich Kibiegon",
       "gender": "F",
@@ -10288,7 +10288,7 @@ export default {
       "event": "Shooting Men's Small-Bore Rifle, Prone, 50 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Kim Kuk-Hyang",
       "gender": "F",
       "height": "170",
@@ -10299,7 +10299,7 @@ export default {
       "age": 23,
       "event": "Weightlifting Women's Super-Heavyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Kim So-Hui",
       "gender": "F",
@@ -10312,7 +10312,7 @@ export default {
       "event": "Taekwondo Women's Flyweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kim Song-Guk",
       "gender": "M",
       "height": "167",
@@ -10335,7 +10335,7 @@ export default {
       "age": 21,
       "event": "Table Tennis Women's Singles",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Kim Tae-Hun",
       "gender": "M",
@@ -10372,7 +10372,7 @@ export default {
       "event": "Swimming Women's 100 metres Breaststroke",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Lilly King",
       "gender": "F",
       "height": "175",
@@ -10383,7 +10383,7 @@ export default {
       "age": 19,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Eliud Kipchoge",
       "gender": "M",
@@ -10408,7 +10408,7 @@ export default {
       "event": "Athletics Men's 3,000 metres Steeplechase",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Eunice Jepkirui Kirwa",
       "gender": "F",
       "height": "155",
@@ -10419,7 +10419,7 @@ export default {
       "age": 32,
       "event": "Athletics Women's Marathon",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Yoshihide Kiryu",
       "gender": "M",
@@ -10552,7 +10552,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Madison Taylor Kocian",
       "gender": "F",
       "height": "157",
@@ -10563,7 +10563,7 @@ export default {
       "age": 19,
       "event": "Gymnastics Women's Uneven Bars",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Werner Kok",
       "gender": "M",
@@ -10612,7 +10612,7 @@ export default {
       "event": "Synchronized Swimming Women's Team",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Osea Kolinisau",
       "gender": "M",
       "height": "174",
@@ -10623,7 +10623,7 @@ export default {
       "age": 30,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Violetta Vitalyevna Kolobova",
       "gender": "F",
@@ -10660,7 +10660,7 @@ export default {
       "event": "Judo Women's Extra-Lightweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Anna Korakaki",
       "gender": "F",
       "height": "175",
@@ -10683,7 +10683,7 @@ export default {
       "age": 20,
       "event": "Shooting Women's Sporting Pistol, 25 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Joseph Mathias \"Joe\" Kovacs",
       "gender": "M",
@@ -10708,7 +10708,7 @@ export default {
       "event": "Canoeing Women's Kayak Singles, 500 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Danuta Kozk",
       "gender": "F",
       "height": "168",
@@ -10731,7 +10731,7 @@ export default {
       "age": 29,
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Annike Berit Krahn",
       "gender": "F",
@@ -10804,7 +10804,7 @@ export default {
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Veronica Egebakken Kristiansen",
       "gender": "F",
       "height": "175",
@@ -10827,7 +10827,7 @@ export default {
       "age": 25,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Luk Krplek",
       "gender": "M",
@@ -10840,7 +10840,7 @@ export default {
       "event": "Judo Men's Half-Heavyweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sinphet Kruaithong",
       "gender": "M",
       "height": "159",
@@ -10851,7 +10851,7 @@ export default {
       "age": 20,
       "event": "Weightlifting Men's Bantamweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Hannah Krger",
       "gender": "F",
@@ -10876,7 +10876,7 @@ export default {
       "event": "Archery Men's Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ku Bon-Chan",
       "gender": "M",
       "height": "181",
@@ -10887,7 +10887,7 @@ export default {
       "age": 23,
       "event": "Archery Men's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Matthew Gregory \"Matt\" Kuchar",
       "gender": "M",
@@ -10984,7 +10984,7 @@ export default {
       "event": "Shooting Men's Air Rifle, 10 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Semi Kunabuli Kunatani",
       "gender": "M",
       "height": "192",
@@ -10995,7 +10995,7 @@ export default {
       "age": 25,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Kahena Kunze",
       "gender": "F",
@@ -11008,7 +11008,7 @@ export default {
       "event": "Sailing Women's Skiff",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kuo Hsing-Chun",
       "gender": "F",
       "height": "157",
@@ -11031,7 +11031,7 @@ export default {
       "age": 25,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Polina Viktorovna Kuznetsova (Vyakhireva-)",
       "gender": "F",
@@ -11200,7 +11200,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Aurimas Lankas",
       "gender": "M",
       "height": "178",
@@ -11211,7 +11211,7 @@ export default {
       "age": 30,
       "event": "Canoeing Men's Kayak Doubles, 200 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Filippo Lanza",
       "gender": "M",
@@ -11248,7 +11248,7 @@ export default {
       "event": "Swimming Men's 200 metres Backstroke",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Mitchell James \"Mitch\" Larkin",
       "gender": "M",
       "height": "187",
@@ -11259,7 +11259,7 @@ export default {
       "age": 23,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jacob Sgaard Larsen",
       "gender": "M",
@@ -11332,7 +11332,7 @@ export default {
       "event": "Diving Men's Springboard",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Jack David Laugher",
       "gender": "M",
       "height": "166",
@@ -11343,7 +11343,7 @@ export default {
       "age": 21,
       "event": "Diving Men's Synchronized Springboard",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Renaud Lavillenie",
       "gender": "M",
@@ -11380,7 +11380,7 @@ export default {
       "event": "Cycling Women's Team Pursuit",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Le Chien-Ying",
       "gender": "F",
       "height": "165",
@@ -11391,7 +11391,7 @@ export default {
       "age": 26,
       "event": "Archery Women's Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Chad Guy Bertrand le Clos",
       "gender": "M",
@@ -11404,7 +11404,7 @@ export default {
       "event": "Swimming Men's 200 metres Freestyle",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Chad Guy Bertrand le Clos",
       "gender": "M",
       "height": "190",
@@ -11415,7 +11415,7 @@ export default {
       "age": 24,
       "event": "Swimming Men's 100 metres Butterfly",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Pierre Le Coq",
       "gender": "M",
@@ -11476,7 +11476,7 @@ export default {
       "event": "Swimming Women's 200 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kathleen Genevieve \"Katie\" Ledecky",
       "gender": "F",
       "height": "183",
@@ -11535,7 +11535,7 @@ export default {
       "age": 33,
       "event": "Badminton Men's Singles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Lee Dae-Hun",
       "gender": "M",
@@ -11740,7 +11740,7 @@ export default {
       "event": "Gymnastics Men's Parallel Bars",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Danell Johan Leyva Gonzalez",
       "gender": "M",
       "height": "170",
@@ -11751,7 +11751,7 @@ export default {
       "age": 24,
       "event": "Gymnastics Men's Horizontal Bar",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Li Dan",
       "gender": "F",
@@ -11800,7 +11800,7 @@ export default {
       "event": "Table Tennis Women's Singles",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Li Xiaoxia",
       "gender": "F",
       "height": "174",
@@ -11811,7 +11811,7 @@ export default {
       "age": 28,
       "event": "Table Tennis Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Li Yuehong",
       "gender": "M",
@@ -11872,7 +11872,7 @@ export default {
       "event": "Cycling Women's Keirin",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Feyisa Lilesa",
       "gender": "M",
       "height": "175",
@@ -11883,7 +11883,7 @@ export default {
       "age": 26,
       "event": "Athletics Men's Marathon",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Lin Chaopan",
       "gender": "M",
@@ -11908,7 +11908,7 @@ export default {
       "event": "Volleyball Women's Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Lin Shih-Chia",
       "gender": "F",
       "height": "160",
@@ -11919,7 +11919,7 @@ export default {
       "age": 23,
       "event": "Archery Women's Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lin Yue",
       "gender": "M",
@@ -11968,7 +11968,7 @@ export default {
       "event": "Shooting Men's Trap",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tibor Linka",
       "gender": "M",
       "height": "199",
@@ -11991,7 +11991,7 @@ export default {
       "age": 27,
       "event": "Judo Men's Middleweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Liu Hong",
       "gender": "F",
@@ -12292,7 +12292,7 @@ export default {
       "event": "Basketball Men's Basketball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Heidi Lke",
       "gender": "F",
       "height": "173",
@@ -12303,7 +12303,7 @@ export default {
       "age": 33,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Lu Xiaojun",
       "gender": "M",
@@ -12436,7 +12436,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Kristine Lunde-Borgersen",
       "gender": "F",
       "height": "181",
@@ -12447,7 +12447,7 @@ export default {
       "age": 36,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Daniele Lupo",
       "gender": "M",
@@ -12460,7 +12460,7 @@ export default {
       "event": "Beach Volleyball Men's Beach Volleyball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Lock Luypaert",
       "gender": "M",
       "height": "181",
@@ -12471,7 +12471,7 @@ export default {
       "age": 24,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Ma Long",
       "gender": "M",
@@ -12484,7 +12484,7 @@ export default {
       "event": "Table Tennis Men's Singles",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ma Long",
       "gender": "M",
       "height": "175",
@@ -12495,7 +12495,7 @@ export default {
       "age": 27,
       "event": "Table Tennis Men's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Marko Macan",
       "gender": "M",
@@ -12544,7 +12544,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Milan Mavan",
       "gender": "M",
       "height": "205",
@@ -12555,7 +12555,7 @@ export default {
       "age": 26,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Natalia Madaj",
       "gender": "F",
@@ -12592,7 +12592,7 @@ export default {
       "event": "Athletics Women's 4 x 100 metres Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Tianna Madison-Bartoletta",
       "gender": "F",
       "height": "168",
@@ -12603,7 +12603,7 @@ export default {
       "age": 30,
       "event": "Athletics Women's Long Jump",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Frederik Rodenberg Madsen",
       "gender": "M",
@@ -12640,7 +12640,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mihaela Maevska",
       "gender": "F",
       "height": "172",
@@ -12651,7 +12651,7 @@ export default {
       "age": 25,
       "event": "Rhythmic Gymnastics Women's Group",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "James Magnussen",
       "gender": "M",
@@ -12724,7 +12724,7 @@ export default {
       "event": "Tennis Women's Doubles",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Taoufik Makhloufi",
       "gender": "M",
       "height": "170",
@@ -12747,7 +12747,7 @@ export default {
       "age": 28,
       "event": "Athletics Men's 1,500 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Anastasiya Ivanovna Maksimova",
       "gender": "F",
@@ -12760,7 +12760,7 @@ export default {
       "event": "Rhythmic Gymnastics Women's Group",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Hedaya Ahmad Malak Wahba",
       "gender": "F",
       "height": "174",
@@ -12795,7 +12795,7 @@ export default {
       "age": 23,
       "event": "Wrestling Women's Lightweight, Freestyle",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Alexandra Maria \"Alex\" Maloney",
       "gender": "F",
@@ -12844,7 +12844,7 @@ export default {
       "event": "Swimming Men's 50 metres Freestyle",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Florent Manaudou",
       "gender": "M",
       "height": "199",
@@ -12879,7 +12879,7 @@ export default {
       "age": 34,
       "event": "Sailing Men's Two Person Dinghy",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Huriana Manuel",
       "gender": "F",
@@ -12904,7 +12904,7 @@ export default {
       "event": "Swimming Women's 50 metres Freestyle",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Simone Ashley Manuel",
       "gender": "F",
       "height": "178",
@@ -12939,7 +12939,7 @@ export default {
       "age": 20,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Luvo Manyonga",
       "gender": "M",
@@ -13060,7 +13060,7 @@ export default {
       "event": "Badminton Women's Singles",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Stefan Markovi",
       "gender": "M",
       "height": "199",
@@ -13071,7 +13071,7 @@ export default {
       "age": 28,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Helen Louise Maroulis",
       "gender": "F",
@@ -13132,7 +13132,7 @@ export default {
       "event": "Boxing Men's Light-Flyweight",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Simon Martirosyan",
       "gender": "M",
       "height": "181",
@@ -13143,7 +13143,7 @@ export default {
       "age": 19,
       "event": "Weightlifting Men's Heavyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Anita Mrton",
       "gender": "F",
@@ -13216,7 +13216,7 @@ export default {
       "event": "Fencing Men's Foil, Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Alexander Chen Massialas",
       "gender": "M",
       "height": "188",
@@ -13227,7 +13227,7 @@ export default {
       "age": 22,
       "event": "Fencing Men's Foil, Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Luca Masso",
       "gender": "M",
@@ -13240,7 +13240,7 @@ export default {
       "event": "Hockey Men's Hockey",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Viliame Sevaka Mata",
       "gender": "M",
       "height": "196",
@@ -13251,7 +13251,7 @@ export default {
       "age": 24,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Diana Beverly Matheson",
       "gender": "F",
@@ -13276,7 +13276,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Michael Walter Mathieu",
       "gender": "M",
       "height": "178",
@@ -13287,7 +13287,7 @@ export default {
       "age": 32,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Takeshi Matsuda",
       "gender": "M",
@@ -13516,7 +13516,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Cameron McEvoy",
       "gender": "M",
       "height": "185",
@@ -13527,7 +13527,7 @@ export default {
       "age": 22,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Emma McKeon",
       "gender": "F",
@@ -13540,7 +13540,7 @@ export default {
       "event": "Swimming Women's 200 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Emma McKeon",
       "gender": "F",
       "height": "180",
@@ -13575,7 +13575,7 @@ export default {
       "age": 22,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Taylor McKeown",
       "gender": "F",
@@ -13720,7 +13720,7 @@ export default {
       "event": "Swimming Women's 100 metres Breaststroke",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Catherine Michelle \"Katie\" Meili",
       "gender": "F",
       "height": "170",
@@ -13731,7 +13731,7 @@ export default {
       "age": 25,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Gerek Lin Meinhardt",
       "gender": "M",
@@ -13804,7 +13804,7 @@ export default {
       "event": "Hockey Men's Hockey",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Florin Mergea",
       "gender": "M",
       "height": "180",
@@ -13815,7 +13815,7 @@ export default {
       "age": 31,
       "event": "Tennis Men's Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "LaShawn Merritt",
       "gender": "M",
@@ -13828,7 +13828,7 @@ export default {
       "event": "Athletics Men's 400 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "LaShawn Merritt",
       "gender": "M",
       "height": "191",
@@ -13839,7 +13839,7 @@ export default {
       "age": 30,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Mehdy Metella",
       "gender": "M",
@@ -13924,7 +13924,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Brankica Mihajlovi",
       "gender": "F",
       "height": "190",
@@ -13935,7 +13935,7 @@ export default {
       "age": 25,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "John Michael Nchekwube Obinna \"John Mikel Obi\" Mikel",
       "gender": "M",
@@ -13972,7 +13972,7 @@ export default {
       "event": "Swimming Men's 100 metres Breaststroke",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Cody Miller",
       "gender": "M",
       "height": "180",
@@ -13995,7 +13995,7 @@ export default {
       "age": 22,
       "event": "Athletics Women's 400 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Hannah Louise Mills",
       "gender": "F",
@@ -14020,7 +14020,7 @@ export default {
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Jelena Milovanovi",
       "gender": "F",
       "height": "190",
@@ -14043,7 +14043,7 @@ export default {
       "age": 21,
       "event": "Weightlifting Men's Super-Heavyweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jevaughn Minzie",
       "gender": "M",
@@ -14104,7 +14104,7 @@ export default {
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Branislav Mitrovi",
       "gender": "M",
       "height": "201",
@@ -14127,7 +14127,7 @@ export default {
       "age": 28,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Risako Mitsui",
       "gender": "F",
@@ -14140,7 +14140,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Risako Mitsui",
       "gender": "F",
       "height": "168",
@@ -14151,7 +14151,7 @@ export default {
       "age": 22,
       "event": "Synchronized Swimming Women's Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Anja Mittag",
       "gender": "F",
@@ -14188,7 +14188,7 @@ export default {
       "event": "Table Tennis Men's Singles",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Jun Mizutani",
       "gender": "M",
       "height": "172",
@@ -14199,7 +14199,7 @@ export default {
       "age": 27,
       "event": "Table Tennis Men's Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Lourdes Mohedano Snchez de Mora",
       "gender": "F",
@@ -14224,7 +14224,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Mari Kristine Sbstad Molid",
       "gender": "F",
       "height": "178",
@@ -14247,7 +14247,7 @@ export default {
       "age": 30,
       "event": "Judo Women's Lightweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Domenico Montrone",
       "gender": "M",
@@ -14272,7 +14272,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sohrab Moradi",
       "gender": "M",
       "height": "170",
@@ -14283,7 +14283,7 @@ export default {
       "age": 27,
       "event": "Weightlifting Men's Middle-Heavyweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "David Morgan",
       "gender": "M",
@@ -14344,7 +14344,7 @@ export default {
       "event": "Boxing Women's Lightweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Nora Mrk",
       "gender": "F",
       "height": "168",
@@ -14355,7 +14355,7 @@ export default {
       "age": 25,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Beslan Zaudinovich Mudranov",
       "gender": "M",
@@ -14464,7 +14464,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Annalise Murphy",
       "gender": "F",
       "height": "184",
@@ -14475,7 +14475,7 @@ export default {
       "age": 26,
       "event": "Sailing Women's One Person Dinghy",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Clayton Murphy",
       "gender": "M",
@@ -14512,7 +14512,7 @@ export default {
       "event": "Swimming Men's 100 metres Backstroke",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ryan Murphy",
       "gender": "M",
       "height": "191",
@@ -14535,7 +14535,7 @@ export default {
       "age": 21,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Andrew Barron \"Andy\" Murray",
       "gender": "M",
@@ -14596,7 +14596,7 @@ export default {
       "event": "Gymnastics Women's Individual All-Around",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Aliya Farkhatovna Mustafina",
       "gender": "F",
       "height": "162",
@@ -14631,7 +14631,7 @@ export default {
       "age": 20,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Rafael Nadal Parera",
       "gender": "M",
@@ -14728,7 +14728,7 @@ export default {
       "event": "Judo Women's Half-Lightweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Leone Nakarawa",
       "gender": "M",
       "height": "198",
@@ -14739,7 +14739,7 @@ export default {
       "age": 28,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Daniel Narcisse",
       "gender": "M",
@@ -14776,7 +14776,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Lilyana Natsir",
       "gender": "F",
       "height": "169",
@@ -14787,7 +14787,7 @@ export default {
       "age": 30,
       "event": "Badminton Mixed Doubles",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Darya Sergeyevna Naumova",
       "gender": "F",
@@ -14824,7 +14824,7 @@ export default {
       "event": "Wrestling Men's Welterweight, Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tsvetelina Biserova Naydenova",
       "gender": "F",
       "height": "168",
@@ -14847,7 +14847,7 @@ export default {
       "age": 34,
       "event": "Athletics Men's Hammer Throw",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Astou Barro Ndour Gueye",
       "gender": "F",
@@ -14884,7 +14884,7 @@ export default {
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Nemanja Nedovi",
       "gender": "M",
       "height": "191",
@@ -14895,7 +14895,7 @@ export default {
       "age": 25,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Daryll Saskia Neita",
       "gender": "F",
@@ -14920,7 +14920,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Stephen Newbold",
       "gender": "M",
       "height": "191",
@@ -14931,7 +14931,7 @@ export default {
       "age": 21,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Neymar da Silva Santos Jnior",
       "gender": "M",
@@ -15004,7 +15004,7 @@ export default {
       "event": "Equestrianism Mixed Three-Day Event, Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Astier Nicolas",
       "gender": "M",
       "height": "180",
@@ -15015,7 +15015,7 @@ export default {
       "age": 27,
       "event": "Equestrianism Mixed Three-Day Event, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Michael Damgaard Nielsen",
       "gender": "M",
@@ -15040,7 +15040,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Simon Niepmann",
       "gender": "M",
       "height": "180",
@@ -15063,7 +15063,7 @@ export default {
       "age": 33,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Vladimir Olegovich Nikitin",
       "gender": "M",
@@ -15076,7 +15076,7 @@ export default {
       "event": "Boxing Men's Bantamweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Jelena Nikoli",
       "gender": "F",
       "height": "194",
@@ -15087,7 +15087,7 @@ export default {
       "age": 34,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Gnonsiane Niombla",
       "gender": "F",
@@ -15136,7 +15136,7 @@ export default {
       "event": "Boxing Men's Light-Heavyweight",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Francine Niyonsaba",
       "gender": "F",
       "height": "166",
@@ -15147,7 +15147,7 @@ export default {
       "age": 23,
       "event": "Athletics Women's 800 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Alessandro Nora",
       "gender": "M",
@@ -15292,7 +15292,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Gary O'Donovan",
       "gender": "M",
       "height": "172",
@@ -15339,7 +15339,7 @@ export default {
       "age": 31,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Oh Hye-Ri",
       "gender": "F",
@@ -15424,7 +15424,7 @@ export default {
       "event": "Swimming Women's 100 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Penelope \"Penny\" Oleksiak",
       "gender": "F",
       "height": "185",
@@ -15459,7 +15459,7 @@ export default {
       "age": 16,
       "event": "Swimming Women's 100 metres Butterfly",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Marc-Antoine Olivier",
       "gender": "M",
@@ -15484,7 +15484,7 @@ export default {
       "event": "Handball Men's Handball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Om Yun-Chol",
       "gender": "M",
       "height": "151",
@@ -15495,7 +15495,7 @@ export default {
       "age": 24,
       "event": "Weightlifting Men's Bantamweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Kano Omata",
       "gender": "F",
@@ -15544,7 +15544,7 @@ export default {
       "event": "Athletics Women's 4 x 400 metres Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Laura Oprea",
       "gender": "F",
       "height": "186",
@@ -15555,7 +15555,7 @@ export default {
       "age": 22,
       "event": "Rowing Women's Coxed Eights",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Orlando Ortega Alejo",
       "gender": "M",
@@ -15676,7 +15676,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Oussama Al-Oueslati",
       "gender": "M",
       "height": "199",
@@ -15687,7 +15687,7 @@ export default {
       "age": 20,
       "event": "Taekwondo Men's Welterweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Sofiane Oumiha",
       "gender": "M",
@@ -15784,7 +15784,7 @@ export default {
       "event": "Trampolining Women's Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Danielle Nicole Page",
       "gender": "F",
       "height": "188",
@@ -15795,7 +15795,7 @@ export default {
       "age": 29,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Caleb Paine",
       "gender": "M",
@@ -15976,7 +15976,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Mariya Valeryevna Paseka",
       "gender": "F",
       "height": "161",
@@ -15987,7 +15987,7 @@ export default {
       "age": 21,
       "event": "Gymnastics Women's Horse Vault",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Aleksandra Vyacheslavovna Patskevich",
       "gender": "F",
@@ -16048,7 +16048,7 @@ export default {
       "event": "Swimming Men's 100 metres Breaststroke",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Adam George Peaty",
       "gender": "M",
       "height": "191",
@@ -16059,7 +16059,7 @@ export default {
       "age": 21,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Matthieu Patrick Franois Peche",
       "gender": "M",
@@ -16252,7 +16252,7 @@ export default {
       "event": "Water Polo Men's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Geno Petriashvili",
       "gender": "M",
       "height": "198",
@@ -16287,7 +16287,7 @@ export default {
       "age": 25,
       "event": "Gymnastics Men's Rings",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Mayya Andreyevna Petrova (Kaverina-)",
       "gender": "F",
@@ -16300,7 +16300,7 @@ export default {
       "event": "Handball Women's Handball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sonja Petrovi",
       "gender": "F",
       "height": "188",
@@ -16311,7 +16311,7 @@ export default {
       "age": 27,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Michael Fred Phelps, II",
       "gender": "M",
@@ -16324,7 +16324,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Michael Fred Phelps, II",
       "gender": "M",
       "height": "193",
@@ -16383,7 +16383,7 @@ export default {
       "age": 31,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Asha Solette Philip",
       "gender": "F",
@@ -16420,7 +16420,7 @@ export default {
       "event": "Sailing Women's Windsurfer",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Luisito Pi",
       "gender": "M",
       "height": "183",
@@ -16431,7 +16431,7 @@ export default {
       "age": 22,
       "event": "Taekwondo Men's Flyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Ccile Pieper",
       "gender": "F",
@@ -16456,7 +16456,7 @@ export default {
       "event": "Swimming Men's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Duko Pijetlovi",
       "gender": "M",
       "height": "197",
@@ -16479,7 +16479,7 @@ export default {
       "age": 32,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Allison Marie Pineau",
       "gender": "F",
@@ -16528,7 +16528,7 @@ export default {
       "event": "Swimming Men's 100 metres Backstroke",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "David Edward Plummer",
       "gender": "M",
       "height": "191",
@@ -16539,7 +16539,7 @@ export default {
       "age": 30,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Amanda Polk",
       "gender": "F",
@@ -16576,7 +16576,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Simona Pop (Deac-)",
       "gender": "F",
       "height": "178",
@@ -16599,7 +16599,7 @@ export default {
       "age": 20,
       "event": "Rowing Women's Coxed Eights",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Nadezhda Mikhaylovna Popok-Lepeshko",
       "gender": "F",
@@ -16612,7 +16612,7 @@ export default {
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Silvija Popovi",
       "gender": "F",
       "height": "178",
@@ -16623,7 +16623,7 @@ export default {
       "age": 30,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Alexandra Popp",
       "gender": "F",
@@ -16660,7 +16660,7 @@ export default {
       "event": "Cycling Women's BMX",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Mira Potkonen",
       "gender": "F",
       "height": "165",
@@ -16671,7 +16671,7 @@ export default {
       "age": 35,
       "event": "Boxing Women's Lightweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Alec Potts",
       "gender": "M",
@@ -16768,7 +16768,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Andrija Prlainovi",
       "gender": "M",
       "height": "200",
@@ -16779,7 +16779,7 @@ export default {
       "age": 29,
       "event": "Water Polo Men's Water Polo",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Yekaterina Valeryevna Prokofyeva",
       "gender": "F",
@@ -16840,7 +16840,7 @@ export default {
       "event": "Canoeing Men's Kayak Singles, Slalom",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Monica Puig Marchn",
       "gender": "F",
       "height": "170",
@@ -16851,7 +16851,7 @@ export default {
       "age": 22,
       "event": "Tennis Women's Singles",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Elmar Qasmov",
       "gender": "M",
@@ -16924,7 +16924,7 @@ export default {
       "event": "Canoeing Men's Canadian Singles, 200 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Isaquias Queiroz dos Santos",
       "gender": "M",
       "height": "175",
@@ -16947,7 +16947,7 @@ export default {
       "age": 22,
       "event": "Canoeing Men's Canadian Doubles, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Samantha Ann \"Sam\" Quek",
       "gender": "F",
@@ -17020,7 +17020,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Mohammed Rabii",
       "gender": "M",
       "height": "180",
@@ -17031,7 +17031,7 @@ export default {
       "age": 23,
       "event": "Boxing Men's Welterweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Federica Radicchi",
       "gender": "F",
@@ -17044,7 +17044,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Tamara Radoaj",
       "gender": "F",
       "height": "170",
@@ -17067,7 +17067,7 @@ export default {
       "age": 28,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Rafael Alcntara do Nascimento",
       "gender": "M",
@@ -17080,7 +17080,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Hassan Sabzali Rahimi",
       "gender": "M",
       "height": "165",
@@ -17091,7 +17091,7 @@ export default {
       "age": 27,
       "event": "Wrestling Men's Featherweight, Freestyle",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Guillaume Louis  Benoit Raineau",
       "gender": "M",
@@ -17116,7 +17116,7 @@ export default {
       "event": "Gymnastics Women's Individual All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Alexandra Rose \"Aly\" Raisman",
       "gender": "F",
       "height": "157",
@@ -17151,7 +17151,7 @@ export default {
       "age": 33,
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Nidzhat Aliyevich Rakhimov",
       "gender": "M",
@@ -17176,7 +17176,7 @@ export default {
       "event": "Tennis Mixed Doubles",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Edvinas Ramanauskas",
       "gender": "M",
       "height": "184",
@@ -17187,7 +17187,7 @@ export default {
       "age": 30,
       "event": "Canoeing Men's Kayak Doubles, 200 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Carlos Alberto Ramrez Yepes",
       "gender": "M",
@@ -17236,7 +17236,7 @@ export default {
       "event": "Rowing Men's Coxed Eights",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sava Ranelovi",
       "gender": "M",
       "height": "193",
@@ -17259,7 +17259,7 @@ export default {
       "age": 25,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Hedvig Lrke Berg Rasmussen",
       "gender": "F",
@@ -17284,7 +17284,7 @@ export default {
       "event": "Canoeing Men's Kayak Singles, 200 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Vatemo Ravouvou",
       "gender": "M",
       "height": "171",
@@ -17307,7 +17307,7 @@ export default {
       "age": 24,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Alexis Raynaud",
       "gender": "M",
@@ -17452,7 +17452,7 @@ export default {
       "event": "Canoeing Men's Kayak Doubles, 1,000 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Max Rendschmidt",
       "gender": "M",
       "height": "186",
@@ -17463,7 +17463,7 @@ export default {
       "age": 22,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Robert Peter \"Robbie\" Renwick",
       "gender": "M",
@@ -17524,7 +17524,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ghasem Gholamreza Rezaei",
       "gender": "M",
       "height": "185",
@@ -17535,7 +17535,7 @@ export default {
       "age": 30,
       "event": "Wrestling Men's Heavyweight, Greco-Roman",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Kimberly Susan \"Kim\" Rhode (-Harryman)",
       "gender": "F",
@@ -17548,7 +17548,7 @@ export default {
       "event": "Shooting Women's Skeet",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ri Se-Gwang",
       "gender": "M",
       "height": "155",
@@ -17559,7 +17559,7 @@ export default {
       "age": 31,
       "event": "Gymnastics Men's Horse Vault",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Helen Richardson-Walsh",
       "gender": "F",
@@ -17584,7 +17584,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Linn-Kristin Ullevoldster Riegelhuth Koren",
       "gender": "F",
       "height": "175",
@@ -17607,7 +17607,7 @@ export default {
       "age": 23,
       "event": "Weightlifting Women's Heavyweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Anne-Marie Rindom",
       "gender": "F",
@@ -17632,7 +17632,7 @@ export default {
       "event": "Judo Men's Heavyweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Pandelela Rinong anak Pamg",
       "gender": "F",
       "height": "159",
@@ -17643,7 +17643,7 @@ export default {
       "age": 23,
       "event": "Diving Women's Synchronized Platform",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jenny Rissveds",
       "gender": "F",
@@ -17656,7 +17656,7 @@ export default {
       "event": "Cycling Women's Mountainbike, Cross-team",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Saulius Ritter",
       "gender": "M",
       "height": "202",
@@ -17667,7 +17667,7 @@ export default {
       "age": 27,
       "event": "Rowing Men's Double Sculls",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Hanna Serhivna Rizatdinova",
       "gender": "F",
@@ -17800,7 +17800,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Misael Uziel Rodrguez Olivas",
       "gender": "M",
       "height": "178",
@@ -17811,7 +17811,7 @@ export default {
       "age": 22,
       "event": "Boxing Men's Middleweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Sergio Rodrguez Gmez",
       "gender": "M",
@@ -17908,7 +17908,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Svetlana Alekseyevna Romashina",
       "gender": "F",
       "height": "173",
@@ -17919,7 +17919,7 @@ export default {
       "age": 26,
       "event": "Synchronized Swimming Women's Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Leticia Romero Gonzlez",
       "gender": "F",
@@ -18028,7 +18028,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Kianoush Rostami",
       "gender": "M",
       "height": "177",
@@ -18039,7 +18039,7 @@ export default {
       "age": 25,
       "event": "Weightlifting Men's Light-Heavyweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Snke Rothenberger",
       "gender": "M",
@@ -18112,7 +18112,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Taylor Madison Ruck",
       "gender": "F",
       "height": "180",
@@ -18123,7 +18123,7 @@ export default {
       "age": 16,
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "David Lekuta Rudisha",
       "gender": "M",
@@ -18184,7 +18184,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Alonzo Russell",
       "gender": "M",
       "height": "174",
@@ -18195,7 +18195,7 @@ export default {
       "age": 24,
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Kelly Russell",
       "gender": "F",
@@ -18304,7 +18304,7 @@ export default {
       "event": "Fencing Men's Foil, Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Timur Marselevich Safin",
       "gender": "M",
       "height": "182",
@@ -18315,7 +18315,7 @@ export default {
       "age": 23,
       "event": "Fencing Men's Foil, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Dylan Michael Sage",
       "gender": "M",
@@ -18400,7 +18400,7 @@ export default {
       "event": "Sailing Women's Skiff",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Sara Ahmed Samir",
       "gender": "F",
       "height": "155",
@@ -18411,7 +18411,7 @@ export default {
       "age": 18,
       "event": "Weightlifting Women's Light-Heavyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jessica Eva Katarina Samuelsson",
       "gender": "F",
@@ -18424,7 +18424,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Germn Sal Snchez Snchez",
       "gender": "M",
       "height": "165",
@@ -18435,7 +18435,7 @@ export default {
       "age": 24,
       "event": "Diving Men's Platform",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Taylor Sander",
       "gender": "M",
@@ -18460,7 +18460,7 @@ export default {
       "event": "Fencing Men's epee, Team",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Albert Saritov",
       "gender": "M",
       "height": "188",
@@ -18483,7 +18483,7 @@ export default {
       "age": 25,
       "event": "Judo Men's Heavyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "William Spencer \"Will\" Satch",
       "gender": "M",
@@ -18652,7 +18652,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Allison Rodgers Schmitt",
       "gender": "F",
       "height": "185",
@@ -18663,7 +18663,7 @@ export default {
       "age": 26,
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Dorothee Schneider (-Krumhoff)",
       "gender": "F",
@@ -18712,7 +18712,7 @@ export default {
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Joseph Isaac Schooling",
       "gender": "M",
       "height": "184",
@@ -18723,7 +18723,7 @@ export default {
       "age": 21,
       "event": "Swimming Men's 100 metres Butterfly",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Olivia Alma Charlotta Schough",
       "gender": "F",
@@ -18772,7 +18772,7 @@ export default {
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Simon Schrch",
       "gender": "M",
       "height": "186",
@@ -18795,7 +18795,7 @@ export default {
       "age": 30,
       "event": "Cycling Men's Mountainbike, Cross-team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Lisa Schtze",
       "gender": "F",
@@ -18844,7 +18844,7 @@ export default {
       "event": "Swimming Men's 4 x 200 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Duncan William MacNaughton Scott",
       "gender": "M",
       "height": "190",
@@ -18855,7 +18855,7 @@ export default {
       "age": 19,
       "event": "Swimming Men's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Giles Lyndon Scott",
       "gender": "M",
@@ -19084,7 +19084,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Lasha Shavdatuashvili",
       "gender": "M",
       "height": "170",
@@ -19095,7 +19095,7 @@ export default {
       "age": 24,
       "event": "Judo Men's Lightweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Abdullahi Shehu",
       "gender": "M",
@@ -19132,7 +19132,7 @@ export default {
       "event": "Diving Women's Springboard",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Shi Tingmao",
       "gender": "F",
       "height": "159",
@@ -19143,7 +19143,7 @@ export default {
       "age": 24,
       "event": "Diving Women's Synchronized Springboard",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Shi Zhiyong",
       "gender": "M",
@@ -19204,7 +19204,7 @@ export default {
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kenzo Shirai",
       "gender": "M",
       "height": "162",
@@ -19215,7 +19215,7 @@ export default {
       "age": 19,
       "event": "Gymnastics Men's Horse Vault",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Alla Anatolyevna Shishkina",
       "gender": "F",
@@ -19384,7 +19384,7 @@ export default {
       "event": "Rowing Women's Coxed Eights",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Marko Simonovi",
       "gender": "M",
       "height": "203",
@@ -19395,7 +19395,7 @@ export default {
       "age": 30,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Seth Muenfuh Sincere",
       "gender": "M",
@@ -19420,7 +19420,7 @@ export default {
       "event": "Football Women's Football",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Pusarla Venkata \"P. V.\" Sindhu",
       "gender": "F",
       "height": "179",
@@ -19431,7 +19431,7 @@ export default {
       "age": 21,
       "event": "Badminton Women's Singles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Nataliya Siniin",
       "gender": "F",
@@ -19480,7 +19480,7 @@ export default {
       "event": "Taekwondo Men's Heavyweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Pimsiri Sirikaew",
       "gender": "F",
       "height": "152",
@@ -19491,7 +19491,7 @@ export default {
       "age": 26,
       "event": "Weightlifting Women's Lightweight",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sarah Frederica Sjstrm",
       "gender": "F",
@@ -19504,7 +19504,7 @@ export default {
       "event": "Swimming Women's 100 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Sarah Frederica Sjstrm",
       "gender": "F",
       "height": "182",
@@ -19551,7 +19551,7 @@ export default {
       "age": 34,
       "event": "Canoeing Men's Canadian Doubles, Slalom",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Nicholas David \"Nick\" Skelton",
       "gender": "M",
@@ -19576,7 +19576,7 @@ export default {
       "event": "Cycling Men's Sprint",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Callum Skinner",
       "gender": "M",
       "height": "187",
@@ -19587,7 +19587,7 @@ export default {
       "age": 23,
       "event": "Cycling Men's Team Sprint",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Catherine Skinner",
       "gender": "F",
@@ -19684,7 +19684,7 @@ export default {
       "event": "Swimming Women's 400 metres Freestyle",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Leah Smith",
       "gender": "F",
       "height": "178",
@@ -19695,7 +19695,7 @@ export default {
       "age": 21,
       "event": "Swimming Women's 4 x 200 metres Freestyle Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Louis Antoine Smith",
       "gender": "M",
@@ -19792,7 +19792,7 @@ export default {
       "event": "Tennis Mixed Doubles",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Jack Sock",
       "gender": "M",
       "height": "191",
@@ -19815,7 +19815,7 @@ export default {
       "age": 26,
       "event": "Handball Women's Handball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Franck Robert Bernard Solforosi",
       "gender": "M",
@@ -19936,7 +19936,7 @@ export default {
       "event": "Handball Men's Handball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Ivana panovi",
       "gender": "F",
       "height": "176",
@@ -19947,7 +19947,7 @@ export default {
       "age": 26,
       "event": "Athletics Women's Long Jump",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Roscko Shane Specman",
       "gender": "M",
@@ -19984,7 +19984,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Nicola Spirig Hug",
       "gender": "F",
       "height": "166",
@@ -19995,7 +19995,7 @@ export default {
       "age": 34,
       "event": "Triathlon Women's Olympic Distance",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Barbora potkov",
       "gender": "F",
@@ -20032,7 +20032,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Sukanya Srisurat",
       "gender": "F",
       "height": "155",
@@ -20043,7 +20043,7 @@ export default {
       "age": 21,
       "event": "Weightlifting Women's Lightweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "rif rifov",
       "gender": "M",
@@ -20080,7 +20080,7 @@ export default {
       "event": "Wrestling Women's Flyweight, Freestyle",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Dragana Stankovi",
       "gender": "F",
       "height": "195",
@@ -20091,7 +20091,7 @@ export default {
       "age": 21,
       "event": "Basketball Women's Basketball",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Heather Mary Stanning",
       "gender": "F",
@@ -20140,7 +20140,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Davor tefanek",
       "gender": "M",
       "height": "170",
@@ -20163,7 +20163,7 @@ export default {
       "age": 26,
       "event": "Athletics Women's Pole Vault",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Margaret Ann \"Maggie\" Steffens",
       "gender": "F",
@@ -20188,7 +20188,7 @@ export default {
       "event": "Table Tennis Men's Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Giulia Steingruber",
       "gender": "F",
       "height": "160",
@@ -20199,7 +20199,7 @@ export default {
       "age": 22,
       "event": "Gymnastics Women's Horse Vault",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Henrik Olof Stenson",
       "gender": "M",
@@ -20248,7 +20248,7 @@ export default {
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Jovana Stevanovi",
       "gender": "F",
       "height": "192",
@@ -20259,7 +20259,7 @@ export default {
       "age": 24,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Travis Stevens",
       "gender": "M",
@@ -20296,7 +20296,7 @@ export default {
       "event": "Basketball Women's Basketball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Vladimir timac",
       "gender": "M",
       "height": "211",
@@ -20307,7 +20307,7 @@ export default {
       "age": 28,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Toni Stipanovi",
       "gender": "M",
@@ -20320,7 +20320,7 @@ export default {
       "event": "Sailing Men's One Person Dinghy",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Emmanuel Stockbroekx",
       "gender": "M",
       "height": "189",
@@ -20331,7 +20331,7 @@ export default {
       "age": 22,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Genevra \"Gevvie\" Stone",
       "gender": "F",
@@ -20344,7 +20344,7 @@ export default {
       "event": "Rowing Women's Single Sculls",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Are Weierholt Strandli",
       "gender": "M",
       "height": "181",
@@ -20355,7 +20355,7 @@ export default {
       "age": 27,
       "event": "Rowing Men's Lightweight Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jrmy Stravius",
       "gender": "M",
@@ -20404,7 +20404,7 @@ export default {
       "event": "Handball Men's Handball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Ioana Strungaru (Crciun-)",
       "gender": "F",
       "height": "180",
@@ -20415,7 +20415,7 @@ export default {
       "age": 27,
       "event": "Rowing Women's Coxed Eights",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Barbora Strcov (-Zhlavov)",
       "gender": "F",
@@ -20488,7 +20488,7 @@ export default {
       "event": "Synchronized Swimming Women's Duet",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Sun Wenyan",
       "gender": "F",
       "height": "170",
@@ -20499,7 +20499,7 @@ export default {
       "age": 26,
       "event": "Synchronized Swimming Women's Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sun Yanan",
       "gender": "F",
@@ -20524,7 +20524,7 @@ export default {
       "event": "Swimming Men's 200 metres Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sun Yang",
       "gender": "M",
       "height": "198",
@@ -20535,7 +20535,7 @@ export default {
       "age": 24,
       "event": "Swimming Men's 400 metres Freestyle",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sun Yiwen",
       "gender": "F",
@@ -20548,7 +20548,7 @@ export default {
       "event": "Fencing Women's epee, Individual",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Sun Yiwen",
       "gender": "F",
       "height": "177",
@@ -20559,7 +20559,7 @@ export default {
       "age": 24,
       "event": "Fencing Women's epee, Team",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sun Yujie",
       "gender": "F",
@@ -20644,7 +20644,7 @@ export default {
       "event": "Canoeing Women's Kayak Doubles, 500 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Gabriella Timea Szab",
       "gender": "F",
       "height": "170",
@@ -20655,7 +20655,7 @@ export default {
       "age": 29,
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Emese Judit Szsz",
       "gender": "F",
@@ -20704,7 +20704,7 @@ export default {
       "event": "Judo Women's Middleweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kaspar Taimsoo",
       "gender": "M",
       "height": "194",
@@ -20715,7 +20715,7 @@ export default {
       "age": 29,
       "event": "Rowing Men's Quadruple Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Ayaka Takahashi",
       "gender": "F",
@@ -20740,7 +20740,7 @@ export default {
       "event": "Judo Men's Extra-Lightweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Lasha Talakhadze",
       "gender": "M",
       "height": "197",
@@ -20763,7 +20763,7 @@ export default {
       "age": 23,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Jared Tallent",
       "gender": "M",
@@ -20800,7 +20800,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tan Wee Kiong",
       "gender": "M",
       "height": "177",
@@ -20823,7 +20823,7 @@ export default {
       "age": 22,
       "event": "Archery Women's Team",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Yusuke Tanaka",
       "gender": "M",
@@ -20836,7 +20836,7 @@ export default {
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Sopita Tanasan",
       "gender": "F",
       "height": "154",
@@ -20847,7 +20847,7 @@ export default {
       "age": 21,
       "event": "Weightlifting Women's Flyweight",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Melissa Palma Julie Tancredi",
       "gender": "F",
@@ -20884,7 +20884,7 @@ export default {
       "event": "Athletics Men's 10,000 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Juraj Tarr",
       "gender": "M",
       "height": "190",
@@ -20895,7 +20895,7 @@ export default {
       "age": 37,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Elmurat Zulypkarovich Tasmuradov",
       "gender": "M",
@@ -20908,7 +20908,7 @@ export default {
       "event": "Wrestling Men's Featherweight, Greco-Roman",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Nur Tatar",
       "gender": "F",
       "height": "173",
@@ -20919,7 +20919,7 @@ export default {
       "age": 23,
       "event": "Taekwondo Women's Welterweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Anastasiya Alekseyevna Tatareva",
       "gender": "F",
@@ -20992,7 +20992,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Horia Tecu",
       "gender": "M",
       "height": "192",
@@ -21003,7 +21003,7 @@ export default {
       "age": 31,
       "event": "Tennis Men's Doubles",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Stefano Tempesti",
       "gender": "M",
@@ -21016,7 +21016,7 @@ export default {
       "event": "Water Polo Men's Water Polo",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Milo Teodosi",
       "gender": "M",
       "height": "195",
@@ -21027,7 +21027,7 @@ export default {
       "age": 29,
       "event": "Basketball Men's Basketball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jana Teschke",
       "gender": "F",
@@ -21064,7 +21064,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Nafissatou \"Nafi\" Thiam",
       "gender": "F",
       "height": "184",
@@ -21075,7 +21075,7 @@ export default {
       "age": 21,
       "event": "Athletics Women's Heptathlon",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Annekatrin Thiele",
       "gender": "F",
@@ -21112,7 +21112,7 @@ export default {
       "event": "Athletics Women's 100 metres",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Elaine Thompson",
       "gender": "F",
       "height": "167",
@@ -21135,7 +21135,7 @@ export default {
       "age": 24,
       "event": "Athletics Women's 4 x 100 metres Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Klay Alexander Thompson",
       "gender": "M",
@@ -21196,7 +21196,7 @@ export default {
       "event": "Athletics Men's Hammer Throw",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Pieter Timmers",
       "gender": "M",
       "height": "200",
@@ -21207,7 +21207,7 @@ export default {
       "age": 28,
       "event": "Swimming Men's 100 metres Freestyle",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Anna Viktorovna Timofeyeva",
       "gender": "F",
@@ -21268,7 +21268,7 @@ export default {
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Hristiana Todorova",
       "gender": "F",
       "height": "173",
@@ -21291,7 +21291,7 @@ export default {
       "age": 24,
       "event": "Athletics Men's 10,000 metres",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Jeremy Toljan",
       "gender": "M",
@@ -21328,7 +21328,7 @@ export default {
       "event": "Judo Men's Half-Middleweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Marko Tomievi",
       "gender": "M",
       "height": "174",
@@ -21339,7 +21339,7 @@ export default {
       "age": 26,
       "event": "Canoeing Men's Kayak Doubles, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Emma Kate Tonegato",
       "gender": "F",
@@ -21412,7 +21412,7 @@ export default {
       "event": "Wrestling Women's Flyweight, Freestyle",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Matej Tth",
       "gender": "M",
       "height": "185",
@@ -21423,7 +21423,7 @@ export default {
       "age": 33,
       "event": "Athletics Men's 50 kilometres Walk",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Susannah Townsend",
       "gender": "F",
@@ -21436,7 +21436,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Lucas Tramr",
       "gender": "M",
       "height": "183",
@@ -21447,7 +21447,7 @@ export default {
       "age": 26,
       "event": "Rowing Men's Lightweight Coxless Fours",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Luk Trefil",
       "gender": "M",
@@ -21508,7 +21508,7 @@ export default {
       "event": "Cycling Women's Team Pursuit",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Laura Rebecca Trott (-Kenny)",
       "gender": "F",
       "height": "164",
@@ -21519,7 +21519,7 @@ export default {
       "age": 24,
       "event": "Cycling Women's Omnium",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Murphy Edward Troy",
       "gender": "M",
@@ -21532,7 +21532,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Tina Trstenjak",
       "gender": "F",
       "height": "162",
@@ -21567,7 +21567,7 @@ export default {
       "age": 40,
       "event": "Rowing Men's Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Ruby Tui",
       "gender": "F",
@@ -21580,7 +21580,7 @@ export default {
       "event": "Rugby Sevens Women's Rugby Sevens",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Josua Tuisova Ratulevu",
       "gender": "M",
       "height": "180",
@@ -21591,7 +21591,7 @@ export default {
       "age": 22,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Blair Tuke",
       "gender": "M",
@@ -21628,7 +21628,7 @@ export default {
       "event": "Athletics Men's 400 metres Hurdles",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Irak'li Turmanidze",
       "gender": "M",
       "height": "182",
@@ -21639,7 +21639,7 @@ export default {
       "age": 31,
       "event": "Weightlifting Men's Super-Heavyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Amy Turner",
       "gender": "F",
@@ -21664,7 +21664,7 @@ export default {
       "event": "Gymnastics Women's Team All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Seremaia \"Jerry\" Tuwai Vunisa",
       "gender": "M",
       "height": "174",
@@ -21675,7 +21675,7 @@ export default {
       "age": 27,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Georgina Sophie \"Georgie\" Twigg",
       "gender": "F",
@@ -21724,7 +21724,7 @@ export default {
       "event": "Gymnastics Men's Individual All-Around",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kohei Uchimura",
       "gender": "M",
       "height": "160",
@@ -21735,7 +21735,7 @@ export default {
       "age": 27,
       "event": "Gymnastics Men's Team All-Around",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Ndifreke Effiong Udo",
       "gender": "M",
@@ -21844,7 +21844,7 @@ export default {
       "event": "Water Polo Women's Water Polo",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Milda Valiukait",
       "gender": "F",
       "height": "176",
@@ -21855,7 +21855,7 @@ export default {
       "age": 22,
       "event": "Rowing Women's Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Ingrit Lorena Valencia Victoria",
       "gender": "F",
@@ -21928,7 +21928,7 @@ export default {
       "event": "Hockey Women's Hockey",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Florent Van Aubel",
       "gender": "M",
       "height": "178",
@@ -21951,7 +21951,7 @@ export default {
       "age": 31,
       "event": "Cycling Men's Road Race, Individual",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Anna van der Breggen",
       "gender": "F",
@@ -21964,7 +21964,7 @@ export default {
       "event": "Cycling Women's Road Race, Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Anna van der Breggen",
       "gender": "F",
       "height": "167",
@@ -21975,7 +21975,7 @@ export default {
       "age": 26,
       "event": "Cycling Women's Individual Time Trial",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Cameron van der Burgh",
       "gender": "M",
@@ -21988,7 +21988,7 @@ export default {
       "event": "Swimming Men's 100 metres Breaststroke",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Arthur Van Doren",
       "gender": "M",
       "height": "178",
@@ -21999,7 +21999,7 @@ export default {
       "age": 21,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Anicka van Emden",
       "gender": "F",
@@ -22108,7 +22108,7 @@ export default {
       "event": "Swimming Women's 10 kilometres Open Water",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Elliot Van Strydonck",
       "gender": "M",
       "height": "185",
@@ -22143,7 +22143,7 @@ export default {
       "age": 28,
       "event": "Hockey Men's Hockey",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jan Vandrey",
       "gender": "M",
@@ -22168,7 +22168,7 @@ export default {
       "event": "Judo Women's Middleweight",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Anamari \"Ana\" Velenek",
       "gender": "F",
       "height": "178",
@@ -22179,7 +22179,7 @@ export default {
       "age": 25,
       "event": "Judo Women's Half-Heavyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Sofiya Aleksandrovna Velikaya",
       "gender": "F",
@@ -22192,7 +22192,7 @@ export default {
       "event": "Fencing Women's Sabre, Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Sofiya Aleksandrovna Velikaya",
       "gender": "F",
       "height": "175",
@@ -22215,7 +22215,7 @@ export default {
       "age": 26,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Alessandro Velotto",
       "gender": "M",
@@ -22240,7 +22240,7 @@ export default {
       "event": "Athletics Men's 4 x 400 metres Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Jasa Veremalua",
       "gender": "M",
       "height": "195",
@@ -22251,7 +22251,7 @@ export default {
       "age": 28,
       "event": "Rugby Sevens Men's Rugby Sevens",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Oleh Yuriyovych Verniaiev",
       "gender": "M",
@@ -22264,7 +22264,7 @@ export default {
       "event": "Gymnastics Men's Individual All-Around",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Oleh Yuriyovych Verniaiev",
       "gender": "M",
       "height": "161",
@@ -22275,7 +22275,7 @@ export default {
       "age": 22,
       "event": "Gymnastics Men's Parallel Bars",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Maria Verschoor",
       "gender": "F",
@@ -22360,7 +22360,7 @@ export default {
       "event": "Athletics Women's Javelin Throw",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Samisoni Viriviri",
       "gender": "M",
       "height": "186",
@@ -22383,7 +22383,7 @@ export default {
       "age": 27,
       "event": "Rowing Women's Double Sculls",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Juan Manuel Vivaldi",
       "gender": "M",
@@ -22432,7 +22432,7 @@ export default {
       "event": "Wrestling Men's Middleweight, Greco-Roman",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Erik Vlek",
       "gender": "M",
       "height": "189",
@@ -22443,7 +22443,7 @@ export default {
       "age": 34,
       "event": "Canoeing Men's Kayak Fours, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Kristina Vogel",
       "gender": "F",
@@ -22456,7 +22456,7 @@ export default {
       "event": "Cycling Women's Sprint",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Kristina Vogel",
       "gender": "F",
       "height": "160",
@@ -22467,7 +22467,7 @@ export default {
       "age": 25,
       "event": "Cycling Women's Team Sprint",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Dana Whitney Vollmer (-Grant)",
       "gender": "F",
@@ -22480,7 +22480,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Dana Whitney Vollmer (-Grant)",
       "gender": "F",
       "height": "185",
@@ -22503,7 +22503,7 @@ export default {
       "age": 28,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Nataliya Vitalyevna Vorobyova",
       "gender": "F",
@@ -22564,7 +22564,7 @@ export default {
       "event": "Football Men's Football",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Keshorn Walcott",
       "gender": "M",
       "height": "183",
@@ -22575,7 +22575,7 @@ export default {
       "age": 23,
       "event": "Athletics Men's Javelin Throw",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Marta Walczykiewicz",
       "gender": "F",
@@ -22828,7 +22828,7 @@ export default {
       "event": "Canoeing Women's Kayak Doubles, 500 metres",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Franziska Weber",
       "gender": "F",
       "height": "176",
@@ -22839,7 +22839,7 @@ export default {
       "age": 27,
       "event": "Canoeing Women's Kayak Fours, 500 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Sam Webster",
       "gender": "M",
@@ -22912,7 +22912,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Abbey Weitzeil",
       "gender": "F",
       "height": "178",
@@ -22923,7 +22923,7 @@ export default {
       "age": 19,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Niklas Wellen",
       "gender": "M",
@@ -22996,7 +22996,7 @@ export default {
       "event": "Equestrianism Mixed Dressage, Individual",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Isabelle Regina Werth",
       "gender": "F",
       "height": "169",
@@ -23007,7 +23007,7 @@ export default {
       "age": 47,
       "event": "Equestrianism Mixed Dressage, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Christopher Wesley",
       "gender": "M",
@@ -23080,7 +23080,7 @@ export default {
       "event": "Gymnastics Men's Individual All-Around",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Max Antony Whitlock",
       "gender": "M",
       "height": "167",
@@ -23103,7 +23103,7 @@ export default {
       "age": 23,
       "event": "Gymnastics Men's Pommelled Horse",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Erica Elizabeth Wiebe",
       "gender": "F",
@@ -23308,7 +23308,7 @@ export default {
       "event": "Swimming Women's 4 x 100 metres Freestyle Relay",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Madison \"Madi\" Wilson",
       "gender": "F",
       "height": "179",
@@ -23319,7 +23319,7 @@ export default {
       "age": 22,
       "event": "Swimming Women's 4 x 100 metres Medley Relay",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Melanie Kate Wilson",
       "gender": "F",
@@ -23404,7 +23404,7 @@ export default {
       "event": "Handball Men's Handball",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Panipak Wongpattanakit",
       "gender": "F",
       "height": "173",
@@ -23415,7 +23415,7 @@ export default {
       "age": 18,
       "event": "Taekwondo Women's Flyweight",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Portia Woodman",
       "gender": "F",
@@ -23632,7 +23632,7 @@ export default {
       "event": "Volleyball Women's Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Elitsa Atanasova Yankova",
       "gender": "F",
       "height": "151",
@@ -23667,7 +23667,7 @@ export default {
       "age": 21,
       "event": "Wrestling Men's Middleweight, Freestyle",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Yuliya Andreyevna Yefimova",
       "gender": "F",
@@ -23680,7 +23680,7 @@ export default {
       "event": "Swimming Women's 100 metres Breaststroke",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Yuliya Andreyevna Yefimova",
       "gender": "F",
       "height": "178",
@@ -23691,7 +23691,7 @@ export default {
       "age": 24,
       "event": "Swimming Women's 200 metres Breaststroke",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Julius Kiplagat Yego",
       "gender": "M",
@@ -23716,7 +23716,7 @@ export default {
       "event": "Fencing Women's Sabre, Individual",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Yana Karapetovna Yegoryan",
       "gender": "F",
       "height": "175",
@@ -23727,7 +23727,7 @@ export default {
       "age": 22,
       "event": "Fencing Women's Sabre, Team",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Daniyar Maratovich Yeleusinov",
       "gender": "M",
@@ -23932,7 +23932,7 @@ export default {
       "event": "Fencing Women's Sabre, Team",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Thomas Zajac",
       "gender": "M",
       "height": "180",
@@ -23943,7 +23943,7 @@ export default {
       "age": 30,
       "event": "Sailing Mixed Multihull",
       "medal": "Bronze"
-    },
+    },*/
     {
       "name": "Arthur Nabarrete Zanetti",
       "gender": "M",
@@ -23980,7 +23980,7 @@ export default {
       "event": "Volleyball Men's Volleyball",
       "medal": "Silver"
     },
-    {
+    /*{
       "name": "Vasilij bogar",
       "gender": "M",
       "height": "189",
@@ -23991,7 +23991,7 @@ export default {
       "age": 40,
       "event": "Sailing Men's One Person Heavyweight Dinghy",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Jos Carlos Cracco Neto",
       "gender": "M",
@@ -24112,7 +24112,7 @@ export default {
       "event": "Badminton Mixed Doubles",
       "medal": "Bronze"
     },
-    {
+    /*{
       "name": "Zhang Nan",
       "gender": "M",
       "height": "183",
@@ -24123,7 +24123,7 @@ export default {
       "age": 26,
       "event": "Badminton Men's Doubles",
       "medal": "Gold"
-    },
+    },*/
     {
       "name": "Zhang Wenxiu",
       "gender": "F",
@@ -24232,7 +24232,7 @@ export default {
       "event": "Volleyball Women's Volleyball",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Bojana ivkovi",
       "gender": "F",
       "height": "186",
@@ -24243,7 +24243,7 @@ export default {
       "age": 28,
       "event": "Volleyball Women's Volleyball",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Shakhobiddin Shokirovich Zoirov",
       "gender": "M",
@@ -24256,7 +24256,7 @@ export default {
       "event": "Boxing Men's Flyweight",
       "medal": "Gold"
     },
-    {
+    /*{
       "name": "Milenko Zori",
       "gender": "M",
       "height": "179",
@@ -24267,7 +24267,7 @@ export default {
       "age": 27,
       "event": "Canoeing Men's Kayak Doubles, 1,000 metres",
       "medal": "Silver"
-    },
+    },*/
     {
       "name": "Martin Zwicker",
       "gender": "M",

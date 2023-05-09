@@ -8,7 +8,11 @@ const contenedor = document.getElementById("contenedor");
 
 atletas.forEach(atleta => {
     contenedor.innerHTML += `
-    <h5>${atleta.name}<h5>
+    <h5>Nombre: ${atleta.name}</h5>
+    <h5>Género: ${atleta.gender}</h5>
+    <h5>País: ${atleta.team}</h5>
+    <h5>Deporte: ${atleta.sport}</h5>
+    <h5>Medalla: ${atleta.medal}</h5>
     `
     //console.log(atleta)
 })
