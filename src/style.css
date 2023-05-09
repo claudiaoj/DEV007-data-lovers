@@ -1,7 +1,18 @@
+* {
+    /*para tener control de las cajas q se utilizaran*/
+    box-sizing: border-box;
+    /*hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+    margin: 0;
+    padding: 0;
+}
+
 body{ 
     background: no-repeat url(images/fondo2.png);
-    background-size: cover;
+    background-size: contain;
     font-family: 'Kurale', serif;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
 
 }
 
@@ -45,3 +56,24 @@ h3{
     
 }
 
+.card-atleta {
+    border: 3px solid #122466;
+    border-radius: 27px;
+    background-color: #F6FCB6;
+    min-width: 400px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 40px;
+
+}
+
+.imagen-medalla {
+    width: 100px;
+    border-radius: 100px;
+}
