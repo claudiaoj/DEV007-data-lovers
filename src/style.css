@@ -17,25 +17,41 @@ body{
 }
 
 h1{
-    text-align: center;
-    font-size: 50px;
+    text-align:center;
+    font-size: 60px;
+    padding: 10px 0 70px 0;
 
 }
 
-
-.titulo-buscador{
+/*.buscador{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-top: 0;
+    
 }
+button{
+    background-color: #122466;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+input{
+    border-radius: 5px;
+    
+}*/
 
 
 h3{
     text-align: center;
     font-size: 30px;
+    padding: 20px 0 30px 0;
+    
 }
 
-.navegador{
+/*.navegador{
     display: flex;
     justify-content:space-around;
     background-color: #1B6F93;
@@ -46,7 +62,7 @@ h3{
     color: white;
     text-decoration: none;
     font-size: 25px;
-    padding: 0 80px;
+    padding: 0 100px;
 
 }
 
@@ -54,14 +70,39 @@ h3{
     background-color: #F6FCB6;
     color: black;
     
+}*/
+
+.content-select{
+    display: flex;
+    justify-content: space-around;
 }
+
+select{
+    appearance: none;
+    padding: 15px 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 100px;
+    border: 1px solid #122466;
+    background-color: #122466;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    justify-content:space-between;
+    
+}
+
+/*select:focus {
+    outline: none;
+}*/
 
 .card-atleta {
     border: 3px solid #122466;
     border-radius: 27px;
     background-color: #F6FCB6;
     min-width: 400px;
-    text-align: center;
+    text-align:center;
+    font-size: 20px;
 }
 
 .card {
@@ -69,11 +110,14 @@ h3{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 70px;
 
 }
 
 .imagen-medalla {
     width: 100px;
     border-radius: 100px;
+    /*float: left;
+    clear: both;*/
+    
 }
