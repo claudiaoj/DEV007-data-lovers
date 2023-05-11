@@ -3,8 +3,33 @@ import data from './data/athletes/athletes.js';
 console.log(example, data);
 console.log(data.athletes);
 
-const atletas = data.athletes;
+
+export const atletas = data.athletes;
 const contenedor = document.getElementById("contenedor");
+
+
+/*Boton que nos deriva a página que contiene los deportes
+document.getElementById("boton-deporte").addEventListener('click', () => {
+    document.getElementById("inicio").style.display = 'none';
+    document.getElementById("pagina-deporte").style.display = 'block';
+});
+/Boton que nos deriva a la pagina que contiene las estadisticas
+document.getElementById("boton-estadistica").addEventListener("click", () => {
+    document.getElementById("inicio").style.display = "none";
+    document.getElementById("stadistics").style.display = "block"; //pendiente
+});*/
+
+//Verificamos qué deportes tiene la data:
+let arraySports = [];
+for(let element of atletas){
+    arraySports.push(element.sport);
+    console.log(arraySports);
+}
+
+//Eliminamos los deportes que se repiten:
+arraySports = arraySports.filter((item,index)=>{
+    return arraySports.indexOf(item) === index;
+})
 
 
 atletas.slice(0,50).forEach(atleta => {
@@ -20,6 +45,15 @@ atletas.slice(0,50).forEach(atleta => {
     `
     //console.log(atleta)
 })
+
+
+
+
+
+
+
+
+
 
 /*const nombreAtletas = data.athletes;
 console.log(nombreAtletas);
