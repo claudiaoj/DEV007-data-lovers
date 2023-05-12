@@ -1,11 +1,12 @@
-import { example } from './data.js';
 import data from './data/athletes/athletes.js';
-console.log(example, data);
-console.log(data.athletes);
+//console.log(data.athletes);
+import { allCountries } from "./data.js";
 
 
-export const atletas = data.athletes;
+const atletas = data.athletes;
 const contenedor = document.getElementById("contenedor");
+
+const arrayCountries = sortData(Array.from(allCountries(arrayAthletes))).reverse();//array de paises
 
 
 /*Boton que nos deriva a página que contiene los deportes
@@ -19,20 +20,9 @@ document.getElementById("boton-estadistica").addEventListener("click", () => {
     document.getElementById("stadistics").style.display = "block"; //pendiente
 });*/
 
-//Verificamos qué deportes tiene la data:
-let arraySports = [];
-for(let element of atletas){
-    arraySports.push(element.sport);
-    console.log(arraySports);
-}
-
-//Eliminamos los deportes que se repiten:
-arraySports = arraySports.filter((item,index)=>{
-    return arraySports.indexOf(item) === index;
-})
 
 
-atletas.slice(0,50).forEach(atleta => {
+atletas.slice(0,27).forEach(atleta => {
     contenedor.innerHTML += `
     <di class="card-atleta" id="imagen">
         <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
@@ -45,6 +35,9 @@ atletas.slice(0,50).forEach(atleta => {
     `
     //console.log(atleta)
 })
+
+
+
 
 
 

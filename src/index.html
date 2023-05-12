@@ -13,17 +13,28 @@
         <!--<div id="root"></div>-->
 
     <header class="titulo-buscador">
+    <div class="home-titulo">
+      <h1 class="title">Info Atletas</h1>
+    </div>
 
-    <h1 class="title">Info Atletas</h1>
   
-    <!--<div class="buscador">
+    <div class="buscador"> <!--agregue para ver como se ve-->
       <input type="text" class="lupa" placeholder="Buscar">
-      <button type="submit" class="lupa">Buscar</button>
-    </div>-->
+      <button type="submit" class="lupa">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="#122466" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+          <path d="M21 21l-6 -6"/>
+        </svg>
+      </button>
 
+      
+    </div>
     </header>
 
     <nav class="navegador">
+      
 
     </nav>
 
@@ -52,12 +63,12 @@
 
       <!--Esta es la página de deportes-->
       <section id="pagina-deporte">
-        <section>
+        <!--<section>
           <h2>Atletas</h2>
-        </section>
+        </section> saque esto pa ver como se ve-->
 
         <div class="botones-general">
-                <div class="content-select">
+                <div class="contenido-select">
                   <label for="">
                     <select name="select">
                       <option value="value1">Países</option>
@@ -100,13 +111,43 @@
                   </label>
                 </div>
 
-                    <div class="content-select">
+                    <div class="contenido-select">
                       <select name="select">
                         <label for="">
                           <option value="Medal">Medallas</option>
                           <option value="Gold">Oro</option>
                           <option value="Silver">Plata</option>
                           <option value="Bronze">Bronce</option>
+                        </label>
+                      </select>
+                    </div>
+
+                    <div class="contenido-select">
+                      <select name="select">
+                        <label for="">
+                          <option value="sport">Deporte</option>
+                          <option value="#">Athletics</option>
+                          <option value="#">Basketball</option>
+                        </label>
+                      </select>
+                    </div>
+
+                    <div class="contenido-select">
+                      <select name="select">
+                        <label for="">
+                          <option value="gender">Género</option>
+                          <option value="F">Femenino</option>
+                          <option value="M">Masculino</option>
+                        </label>
+                      </select>
+                    </div>
+
+                    <div class="contenido-select">
+                      <select name="select">
+                        <label for="">
+                          <option value="orden">Orden</option>
+                          <option value="#">A-Z</option>
+                          <option value="#">Z-A</option>
                         </label>
                       </select>
                     </div>

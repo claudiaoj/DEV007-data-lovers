@@ -6,55 +6,68 @@
     padding: 0;
 }
 
-body{ 
-    background: no-repeat url(images/fondo2.png);
-    background-size: cover;
+body{  /*agregue propiedades pa q se mantuviera fija la imagen*/
+
+    background-size: contain; /*cambie a contain*/
     font-family: 'Kurale', serif;
     justify-content: center;
     width: 100%;
     align-items: center;
+    overflow-y: auto; /* activa el scroll vertical */
+    max-height: 500px; /* ajusta la altura máxima del contenedor según tus necesidades */
+    background-image: url(images/fondo2.png);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
+
+
 /*Titulo principal*/
 h1{
     text-align:center;
     font-size: 60px;
-    padding: 10px 0;
+    padding: 20px 0;
     
 
 }
 
-/*.buscador{
+.buscador{  /*le saque el comentario para ver como se ve todo */
     display: flex;
     justify-content: end;
     padding-bottom: 20px;
     padding-top: 0;
+    padding-right: 30px;
     
 }
 button{
-    background-color: #122466;
+    background-color: transparent;
     color: #ffffff;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
+    border: 2px solid #122466;
     text-transform: uppercase;
+    outline: none;
 }
 input{
-    border-radius: 5px;
+    border-radius: 10px;
+    padding-left: 3px;
+    outline: none;
+    border: 2px solid #122466 ;
+
     
-}*/
+}
 
 /*Barra navegador*/
 .navegador{
-    background-color:#1B6F93;
+    background-color:#6bbde0;
     height: 40px;
-    border: #122466;
 }
 
 /*Subtítulo Deportes*/
 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px 0 30px 0;
     
 }
@@ -120,6 +133,17 @@ button .botones-inicio{
 
 
 /*Boton Paises*/
+
+.botones-general{  /*agregue prop para que se alinearan revisar*/
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.contenido-select{
+    padding: 50px 0;;
+}
+
 select{
     appearance: none;
     padding: 15px 20px; 
@@ -129,57 +153,23 @@ select{
     color: #ffffff;
     font-size: 18px;
     text-align: center;
-    justify-content:space-around;
-    
-    
+    justify-content: space-between;
+    text-transform: uppercase;
 }
 
-.content-select {
-    display: flex;
-    justify-content:space-around;
-}
-
-
-
-.contenedor-deportes{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 60px;
-    
-}
-
-.card-deportes{
-    border: 3px solid #122466;
-    border-radius: 27px;
-    background-color: #ffffff;
-    height: 150px;
-    width: 20%;
-    float: left;
-    margin: 10px;
-    text-align: center;
-
-    
-}
-
-.card-deportes:hover{
-    background-color: antiquewhite;
-}
-
-img{
-    height: 100px;
-    width: 100px;
-    margin: 0px;
-    padding-top: 0px;
+select:hover{
+    background-color: #f0950d;
+    border: 1px solid #f0950d;
 }
 
 
+/*aqui saque las card de deporte*/
 
 
 .card-atleta {
     border: 3px solid #122466;
     border-radius: 27px;
-    background-color: #F6FCB6;
+    background-color: white;
     min-width: 400px;
     text-align:center;
     font-size: 20px;
