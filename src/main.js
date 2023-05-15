@@ -1,7 +1,7 @@
 import athletes from './data/athletes/athletes.js';
 import data from './data/athletes/athletes.js';
 //console.log(data.athletes);
-//import { allCountries } from "./data.js";
+import { filtrarAthlete } from "./data.js";
 
 //Variables a utilizar
 const team = document.querySelector("#team");
@@ -54,40 +54,44 @@ function mostrarAthletes(athletes) {
     }
 }
 
-
 //EventListener para los select
 team.addEventListener("change", e => {  //change es para cuando cambia el select
     //console.log(e.target.value);
     datosBusqueda.team = e.target.value; //sera igual al valor que les estamos asignando.
     //console.log(datosBusqueda);
 
-    filtrarAthlete();
+    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    mostrarAthletes(resultado)
 });
+
 
 medal.addEventListener("change", e => {
     datosBusqueda.medal = e.target.value;
-    filtrarAthlete();
+    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    mostrarAthletes(resultado)
 });
 
 sport.addEventListener("change", e => {
     datosBusqueda.sport = e.target.value;
-    filtrarAthlete();
+    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    mostrarAthletes(resultado)
 });
 
 gender.addEventListener("change", e => {
     datosBusqueda.gender = e.target.value;
-    filtrarAthlete();
+    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    mostrarAthletes(resultado)
 });
 
 
 
 //funcion que filtra en base a la busqueda 
-function filtrarAthlete() {
+/*function () {
     //funciona dentro de otra funcion (toma otra funcion como parametro)
     const resultado = data.athletes.filter(filtrarTeam).filter(filtrarMedal).filter(filtrarSport).filter(filtrarGender)
     //console.log(resultado);
     mostrarAthletes(resultado);
-}
+}*/
 
 function filtrarTeam(athlete) {
     if (datosBusqueda.team) {

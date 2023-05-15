@@ -9,6 +9,15 @@ export const anotherExample = () => {
 };
 
 
+export function filtrarAthlete(data, team, medal, sport, gender) {
+    //funciona dentro de otra funcion (toma otra funcion como parametro)
+    const resultado = data.filter(team).filter(medal).filter(sport).filter(gender)
+    //console.log(resultado);
+  return resultado;
+  
+}
+
+
 
 
 
