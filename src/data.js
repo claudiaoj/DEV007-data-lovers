@@ -8,6 +8,17 @@ export const anotherExample = () => {
   return 'OMG';
 };
 
+
+
+
+
+
+
+
+
+
+
+
 //Es un filtro general
 //const functionAll = (array, condicion) => {
 //  return array.filter(condicion);
