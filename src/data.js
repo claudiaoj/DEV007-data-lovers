@@ -14,13 +14,8 @@ export function filtrarAthlete(data, team, medal, sport, gender) {
     const resultado = data.filter(team).filter(medal).filter(sport).filter(gender)
     //console.log(resultado);
   return resultado;
-  
+
 }
-
-
-
-
-
 
 
 

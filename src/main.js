@@ -9,7 +9,6 @@ const medal = document.querySelector("#medal");
 const sport = document.querySelector("#sport");
 const gender = document.querySelector("#gender");
 
-
 const resultado = document.querySelector("#resultado");
 
 //Generar un objeto con la busqueda, que guarde la seleccion del usuario
@@ -123,6 +122,25 @@ function filtrarGender(athlete) {
     }
     return athlete;
 }
+
+//Para que se actualice los datos de select
+const refreshBoton = document.getElementById('refresh-boton');
+refreshBoton.addEventListener('click', () => {
+location.reload(); //método que actualiza la página actual.
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
