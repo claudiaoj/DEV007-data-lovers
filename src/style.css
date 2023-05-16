@@ -6,15 +6,19 @@
     padding: 0;
 }
 
-body{  /*agregue propiedades pa q se mantuviera fija la imagen*/
+body {
+    /*agregue propiedades pa q se mantuviera fija la imagen*/
 
-    background-size: contain; /*cambie a contain*/
+    background-size: contain;
+    /*cambie a contain*/
     font-family: 'Kurale', serif;
     justify-content: center;
     width: 100%;
     align-items: center;
-    overflow-y: auto; /* activa el scroll vertical */
-    max-height: 500px; /* ajusta la altura máxima del contenedor según tus necesidades */
+    overflow-y: auto;
+    /* activa el scroll vertical */
+    max-height: 500px;
+    /* ajusta la altura máxima del contenedor según tus necesidades */
     background-image: url(images/fondo2.png);
     background-size: cover;
     background-attachment: fixed;
@@ -23,15 +27,15 @@ body{  /*agregue propiedades pa q se mantuviera fija la imagen*/
 
 
 /*Titulo principal*/
-h1{
-    text-align:center;
+h1 {
+    text-align: center;
     font-size: 60px;
     padding: 20px 0;
-    
+
 
 }
 
-.buscador{  
+/*.buscador{  
     display: flex;
     justify-content: end;
     padding-bottom: 20px;
@@ -56,15 +60,15 @@ input{
     border: 2px solid #122466 ;
 
     
+}*/
+
+.navegador {
+    background-color: #6bbde0;
+    height: 60px;
+
 }
 
-/*Barra navegador*/
-.navegador{
-    background-color:#6bbde0;
-    height: 40px;
-}
-
-#refresh-boton{
+/*#refresh-boton{
     color:#ffffff;
     background-color: #122466;
     border-radius: 27px;
@@ -75,100 +79,71 @@ input{
 #refresh-boton:hover {
     background-color: #f0950d;
     border: 1px solid #f0950d;
-}
-
-/*.introduccion{
-    background-color: transparent;
-    color: black;
-    padding: 20px 450px;
-    text-align:justify;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.navegador{
-    display: flex;
-    background-color: #1B6F93;
-    padding: 0 100px;
-    border: #122466;
-    
-}
-
-.contenedor-botones{
-    display: flex;
-    border: 3px solid #1B6F93;
-    border-radius: 27px;
-    justify-content:space-around;
-    padding: 25px 20px;
-    flex-wrap: wrap;
-    background-color:#1B6F93;
-    width: 650px;
-    position: absolute;
-    left: 370px;
-    bottom: 100px;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.botones-inicio{
-    color: white;
-    background-color: #122466;
-    border-radius: 27px;
-    padding: 15px 50px;
-    font-size: 18px;
-    cursor: pointer;
-    border: #122466;
-    text-transform: uppercase;
-}
-
-.botones-inicio:hover{
-    color: #122466;
-    background-color: #F0AA0A;
-    font-weight: bold;
-}
-
-div p{
-    padding-bottom: 25px;
-}
-
-button .botones-inicio{
-    justify-content:space-between;
 }*/
 
+.orden {
+    display: flex;
+    justify-content: right;
+    padding: 30px 80px;
+    outline: none;
+}
+
+#filtro-orden {
+    background-color: #F0AA0A;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #F0AA0A;
+    text-transform: uppercase;
+    outline: none;
+}
+
+#refresh-boton {
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    /*padding-left: 60px;*/
+    cursor: pointer;
+}
+
+#refresh-boton:hover {
+    background-color: #F0AA0A;
+
+}
 
 /*Boton Paises*/
 
-.botones-general{  /*agregue prop para que se alinearan revisar*/
+.botones-general {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.contenido-select {
+    padding: 15px 20px;
+
 
 }
 
-.contenido-select{
-    padding: 50px 0;;
-}
-
-select{
+.selectores {
     appearance: none;
-    padding: 15px 20px; 
-    border-radius: 100px;
-    border: 1px solid #122466;
-    background-color: #122466;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
-    justify-content: space-between;
     text-transform: uppercase;
+    background-color: #6bbde0;
+    border: none;
+    height: 30px;
+    width: 250px;
+    cursor: pointer;
+
+
 }
 
-select:hover{
-    background-color: #f0950d;
-    border: 1px solid #f0950d;
+.selectores:hover {
+    background-color: #F0AA0A;
 }
-
-
-/*aqui saque las card de deporte*/
 
 
 .card-atleta {
@@ -176,7 +151,7 @@ select:hover{
     border-radius: 27px;
     background-color: white;
     min-width: 400px;
-    text-align:center;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -194,6 +169,3 @@ select:hover{
     width: 100px;
     border-radius: 100px;
 }
-
-
-
