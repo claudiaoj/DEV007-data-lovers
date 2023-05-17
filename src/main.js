@@ -32,14 +32,27 @@ function mostrarAthletes(athletes) {
 
     athletes.slice(0,150).forEach( athlete  => {
         //const { name, gender, team, sport, medal } = athlete;
-    resultado.innerHTML += `
-    <div class="card-atleta" id="imagen">
-        <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
-        <h5>Nombre: ${athlete.name}</h5>
-        <h5>Género: ${athlete.gender}</h5>
-        <h5>País: ${athlete.team}</h5>
-        <h5>Deporte: ${athlete.sport}</h5>
-        <h5>Medalla: ${athlete.medal}</h5>
+        resultado.innerHTML += `
+    
+    <div class="flip-container">
+        <div class="card-completa">
+            <div class="front">
+                <div class="card-atleta" id="imagen">
+                    <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
+                    <h5>${athlete.name}</h5>
+                </div>
+            </div>
+            <div class="back">
+                <div class="card-atleta" id="imagen">
+                    <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
+                    <h5>Nombre: ${athlete.name}</h5>
+                    <h5>Género: ${athlete.gender}</h5>
+                    <h5>País: ${athlete.team}</h5>
+                    <h5>Deporte: ${athlete.sport}</h5>
+                    <h5>Medalla: ${athlete.medal}</h5>
+                </div>
+            </div>
+        </div>
     </div>
     `
     });
@@ -129,8 +142,14 @@ refreshBoton.addEventListener('click', () => {
 location.reload(); //método que actualiza la página actual.
 });
 
-
-
+//Orden de Atletas por nombre A-Z
+/*const ordenSelect = document.getElementById("filtro-orden");
+ordenSelect.addEventListener("change", () => {
+    const ordenNombre = ordenSelect.value;
+    const dataOrden = sort.(data.athletes, ordenNombre);
+    console.log(dataOrden);
+    mostrarAthletes(dataOrden);
+} )*/
 
 
 

@@ -31,6 +31,7 @@ h1 {
     text-align: center;
     font-size: 60px;
     padding: 20px 0;
+    color: #122466;
 
 
 }
@@ -68,19 +69,6 @@ input{
 
 }
 
-/*#refresh-boton{
-    color:#ffffff;
-    background-color: #122466;
-    border-radius: 27px;
-    padding: 10px;
-    font-size: 12px;
-
-}
-#refresh-boton:hover {
-    background-color: #f0950d;
-    border: 1px solid #f0950d;
-}*/
-
 .orden {
     display: flex;
     justify-content: right;
@@ -98,6 +86,11 @@ input{
     text-transform: uppercase;
     outline: none;
 }
+
+#filtro-orden:hover{
+    color: #122466;
+}
+
 
 #refresh-boton {
     background-color: transparent;
@@ -117,12 +110,11 @@ input{
 .botones-general {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .contenido-select {
     padding: 15px 20px;
-
 
 }
 
@@ -137,16 +129,16 @@ input{
     height: 30px;
     width: 250px;
     cursor: pointer;
-
-
 }
 
 .selectores:hover {
-    background-color: #F0AA0A;
+    /*background-color: #F0AA0A;*/
+    color:black;
+
 }
 
 
-.card-atleta {
+/*.card-atleta {
     border: 3px solid #122466;
     border-radius: 27px;
     background-color: white;
@@ -162,10 +154,69 @@ input{
     justify-content: space-between;
     padding: 0 70px;
 
-}
-
+}*/
 
 .imagen-medalla {
     width: 100px;
     border-radius: 100px;
 }
+
+/*flip prueba */
+
+#resultado{  /*agregue para poder colocar las cards una al lado de la otra*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.flip-container{
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    /*border: 1px solid #122466;*/
+    border-radius: 30px;
+    perspective: 1000px;
+}
+
+
+.card-completa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-container:hover .card-completa {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.front {
+    background-color: #6bbde0;
+    color: #122466;
+
+}
+
+.back {
+    background-color: #F0AA0A;
+    color: #122466;
+    transform: rotateY(180deg);
+}
+
+
