@@ -9,29 +9,28 @@ export const anotherExample = () => {
 };
 
 
-
 export function filtrarAthlete(data, team, medal, sport, gender) {
-   const resultado = data.filter(team).filter(medal).filter(sport).filter(gender)
+  const resultado = data.filter(team).filter(medal).filter(sport).filter(gender)
   return resultado;
 }
 
 export function filtrarTeam(data, team) {
-   const resultado = data.filter(item => item.team === team);
+  const resultado = data.filter(item => item.team === team);
   return resultado;
 }
 
 export function filtrarMedal(data, medal) {
-   const resultado = data.filter(item => item.medal === medal);
+  const resultado = data.filter(item => item.medal === medal);
   return resultado;
 }
 
 export function filtrarSport(data, sport) {
-   const resultado = data.filter(item => item.sport === sport);
+  const resultado = data.filter(item => item.sport === sport);
   return resultado;
 }
 
 export function filtrarGender(data, gender) {
-   const resultado = data.filter(item => item.gender === gender);
+  const resultado = data.filter(item => item.gender === gender);
   return resultado;
 }
 
