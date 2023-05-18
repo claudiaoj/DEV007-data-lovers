@@ -4,10 +4,6 @@ import data from './data/athletes/athletes.js';
 
 import { 
     filtrarAthlete,
-    filtrarTeam,
-    filtrarMedal,
-    filtrarSport,
-    filtrarGender,
     sortData
  } from "./data.js";
 
@@ -75,25 +71,25 @@ mostrarAthletes(data.athletes);
 //EventListener para los select
 team.addEventListener("change", e => {  
     datosBusqueda.team = e.target.value;
-    const resultado = filtrarTeam(data.athletes, datosBusqueda.team);
+    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
     mostrarAthletes(resultado)
 });
 
 medal.addEventListener("change", e => {
     datosBusqueda.medal = e.target.value;
-    const resultado = filtrarMedal(data.athletes, datosBusqueda.medal);
+    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
     mostrarAthletes(resultado)
 });
 
 sport.addEventListener("change", e => {
     datosBusqueda.sport = e.target.value;
-    const resultado = filtrarSport(data.athletes, datosBusqueda.sport);
+    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
     mostrarAthletes(resultado)
 });
 
 gender.addEventListener("change", e => {
     datosBusqueda.gender = e.target.value;
-    const resultado = filtrarGender(data.athletes, datosBusqueda.gender);
+    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
     mostrarAthletes(resultado)
 });
 

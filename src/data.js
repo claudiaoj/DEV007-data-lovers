@@ -11,29 +11,22 @@ export const anotherExample = () => {
 
 
 export function filtrarAthlete(data, team, medal, sport, gender) {
-   const resultado = data.filter(team).filter(medal).filter(sport).filter(gender)
+   let resultado = data
+   if(team){
+    resultado = resultado.filter(item => item.team === team);
+   }
+   if(medal){
+    resultado = resultado.filter(item => item.medal === medal);
+   }
+   if(sport){
+    resultado = resultado.filter(item => item.sport === sport);
+   }
+   if(gender){
+    resultado = resultado.filter(item => item.gender === gender);
+   }
   return resultado;
 }
 
-export function filtrarTeam(data, team) {
-   const resultado = data.filter(item => item.team === team);
-  return resultado;
-}
-
-export function filtrarMedal(data, medal) {
-   const resultado = data.filter(item => item.medal === medal);
-  return resultado;
-}
-
-export function filtrarSport(data, sport) {
-   const resultado = data.filter(item => item.sport === sport);
-  return resultado;
-}
-
-export function filtrarGender(data, gender) {
-   const resultado = data.filter(item => item.gender === gender);
-  return resultado;
-}
 
 
 //Orden A-Z
