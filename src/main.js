@@ -1,7 +1,13 @@
 import athletes from './data/athletes/athletes.js';
 import data from './data/athletes/athletes.js';
 //console.log(data.athletes);
-import { filtrarAthlete } from "./data.js";
+import { 
+    filtrarAthlete,
+    filtrarTeam,
+    filtrarMedal,
+    filtrarSport,
+    filtrarGender,
+ } from "./data.js";
 
 //Variables a utilizar
 const team = document.querySelector("#team");
@@ -19,17 +25,11 @@ const datosBusqueda = {
     medal: "",
 }
 
-
-//Para mostrar en html la funcion mostrarAthletes.
-document.addEventListener("DOMContentLoaded", () => {
-mostrarAthletes(data.athletes);
-})
-
 function mostrarAthletes(athletes) {
 
     limpiarHTML(); // elimina el html previo
-
-
+  
+  
     athletes.slice(0,150).forEach( athlete  => {
         //const { name, gender, team, sport, medal } = athlete;
         resultado.innerHTML += `
@@ -56,42 +56,42 @@ function mostrarAthletes(athletes) {
     </div>
     `
     });
-
-
-//Limpiar html
+  
+  
+  //Limpiar html
     function limpiarHTML() {
         while (resultado.firstChild) {
             resultado.removeChild(resultado.firstChild);
         }
     }
-}
+  }
+//Para mostrar en html la funcion mostrarAthletes.
+document.addEventListener("DOMContentLoaded", () => {
+mostrarAthletes(data.athletes);
+})
 
 //EventListener para los select
-team.addEventListener("change", e => {  //change es para cuando cambia el select
-    //console.log(e.target.value);
-    datosBusqueda.team = e.target.value; //sera igual al valor que les estamos asignando.
-    //console.log(datosBusqueda);
-
-    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+team.addEventListener("change", e => {  
+    datosBusqueda.team = e.target.value;
+    const resultado = filtrarTeam(data.athletes, datosBusqueda.team);
     mostrarAthletes(resultado)
 });
 
-
 medal.addEventListener("change", e => {
     datosBusqueda.medal = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    const resultado = filtrarMedal(data.athletes, datosBusqueda.medal);
     mostrarAthletes(resultado)
 });
 
 sport.addEventListener("change", e => {
     datosBusqueda.sport = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    const resultado = filtrarSport(data.athletes, datosBusqueda.sport);
     mostrarAthletes(resultado)
 });
 
 gender.addEventListener("change", e => {
     datosBusqueda.gender = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, filtrarTeam, filtrarMedal, filtrarSport, filtrarGender);
+    const resultado = filtrarGender(data.athletes, datosBusqueda.gender);
     mostrarAthletes(resultado)
 });
 
@@ -105,36 +105,7 @@ gender.addEventListener("change", e => {
     mostrarAthletes(resultado);
 }*/
 
-function filtrarTeam(athlete) {
-    if (datosBusqueda.team) {
-        return athlete.team === datosBusqueda.team;
-    }
-    return athlete;
-}
 
-function filtrarMedal(athlete) {
-    const { medal } = datosBusqueda;
-    if (medal) {
-        return athlete.medal === medal;
-    }
-    return athlete;
-}
-
-function filtrarSport(athlete) {
-    const { sport } = datosBusqueda;
-    if (sport) {
-        return athlete.sport === sport;
-    }
-    return athlete;
-}
-
-function filtrarGender(athlete) {
-    const { gender } = datosBusqueda;
-    if (gender) {
-        return athlete.gender === gender;
-    }
-    return athlete;
-}
 
 //Para que se actualice los datos de select
 const refreshBoton = document.getElementById('refresh-boton');
@@ -168,7 +139,7 @@ ordenSelect.addEventListener("change", () => {
 
 
 
-//const arrayCountries = sortData(Array.from(allCountries(arrayAthletes))).reverse();//array de paises
+
 
 
 /*Boton que nos deriva a página que contiene los deportes
