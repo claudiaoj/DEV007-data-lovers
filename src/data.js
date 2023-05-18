@@ -9,7 +9,6 @@ export const anotherExample = () => {
 };
 
 
-
 export function filtrarAthlete(data, team, medal, sport, gender) {
    let resultado = data
    if(team){
@@ -26,7 +25,6 @@ export function filtrarAthlete(data, team, medal, sport, gender) {
    }
   return resultado;
 }
-
 
 
 //Orden A-Z

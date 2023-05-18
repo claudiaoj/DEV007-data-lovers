@@ -27,7 +27,7 @@ function mostrarAthletes(athletes) {
 
     limpiarHTML(); // elimina el html previo
 
-    athletes.slice(0,200).forEach( athlete  => {
+    athletes.slice(0, 160).forEach( athlete  => {
 
         //const { name, gender, team, sport, medal } = athlete;
         resultado.innerHTML += `
@@ -54,15 +54,15 @@ function mostrarAthletes(athletes) {
     </div>
     `
     });
-  
-  
+
+
   //Limpiar html
     function limpiarHTML() {
         while (resultado.firstChild) {
             resultado.removeChild(resultado.firstChild);
         }
     }
-  }
+}
 //Para mostrar en html la funcion mostrarAthletes.
 document.addEventListener("DOMContentLoaded", () => {
 mostrarAthletes(data.athletes);
@@ -117,39 +117,6 @@ if (ordenNombre === "ascendente") {
 console.log(dataOrden);
 mostrarAthletes(dataOrden);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// desaparezca el contenedor de las cards
-/*let inicioPagina = document.getElementById("resultado");
-inicioPagina.style.display = "none";*/
-
-
-
-/*Boton que nos deriva a página que contiene los deportes
-document.getElementById("boton-deporte").addEventListener('click', () => {
-    document.getElementById("inicio").style.display = 'none';
-    document.getElementById("pagina-deporte").style.display = 'block';
-});
-/Boton que nos deriva a la pagina que contiene las estadisticas
-document.getElementById("boton-estadistica").addEventListener("click", () => {
-    document.getElementById("inicio").style.display = "none";
-    document.getElementById("stadistics").style.display = "block"; //pendiente
-});*/
 
 
 
