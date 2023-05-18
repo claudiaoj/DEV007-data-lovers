@@ -20,17 +20,34 @@ export function filtrarAthlete(data, team, medal, sport, gender) {
 
 
 
+//Orden A-Z
+export function sortData(order, data) {
+  let dataOrden;
+
+  if (order === "ascendente") {
+    dataOrden = data.sort((a, b) => {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    });
+  } else if (order === "descendente") {
+    dataOrden = data.sort((a, b) => {
+      if (a.name > b.name) {
+        return -1;
+      }
+      if (a.name < b.name) {
+        return 1;
+      }
+      return 0;
+    });
+  }
+
+  return dataOrden;
+}
 
 
-//Es un filtro general
-//const functionAll = (array, condicion) => {
-//  return array.filter(condicion);
-//};
 
-/* funcion para que no se repitan los  paises
-const allCountries = (athletes) => {
-  const newArrCountries = athletes.map(newTeam => {
-    return newTeam.team
-  });
-  return new Set(newArrCountries);
-}*/

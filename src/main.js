@@ -1,7 +1,7 @@
 import athletes from './data/athletes/athletes.js';
 import data from './data/athletes/athletes.js';
 //console.log(data.athletes);
-import { filtrarAthlete } from "./data.js";
+import { filtrarAthlete, sortData } from "./data.js"; //sortData
 
 //Variables a utilizar
 const team = document.querySelector("#team");
@@ -30,7 +30,7 @@ function mostrarAthletes(athletes) {
     limpiarHTML(); // elimina el html previo
 
 
-    athletes.slice(0,150).forEach( athlete  => {
+    athletes.slice(0,200).forEach( athlete  => {
         //const { name, gender, team, sport, medal } = athlete;
         resultado.innerHTML += `
     
@@ -96,15 +96,6 @@ gender.addEventListener("change", e => {
 });
 
 
-
-//funcion que filtra en base a la busqueda 
-/*function () {
-    //funciona dentro de otra funcion (toma otra funcion como parametro)
-    const resultado = data.athletes.filter(filtrarTeam).filter(filtrarMedal).filter(filtrarSport).filter(filtrarGender)
-    //console.log(resultado);
-    mostrarAthletes(resultado);
-}*/
-
 function filtrarTeam(athlete) {
     if (datosBusqueda.team) {
         return athlete.team === datosBusqueda.team;
@@ -136,20 +127,88 @@ function filtrarGender(athlete) {
     return athlete;
 }
 
+
+
 //Para que se actualice los datos de select
-const refreshBoton = document.getElementById('refresh-boton');
-refreshBoton.addEventListener('click', () => {
+const refreshBoton = document.getElementById("refresh-boton");
+refreshBoton.addEventListener("click", () => {
 location.reload(); //método que actualiza la página actual.
 });
 
-//Orden de Atletas por nombre A-Z
-/*const ordenSelect = document.getElementById("filtro-orden");
+
+
+//Orden A-Z
+const ordenSelect = document.getElementById("filtro-orden");
 ordenSelect.addEventListener("change", () => {
-    const ordenNombre = ordenSelect.value;
-    const dataOrden = sort.(data.athletes, ordenNombre);
-    console.log(dataOrden);
-    mostrarAthletes(dataOrden);
-} )*/
+const ordenNombre = ordenSelect.value;
+let dataOrden;
+
+if (ordenNombre === "ascendente") {
+    dataOrden = sortData("ascendente", data.athletes);
+} else if (ordenNombre === "descendente") {
+    dataOrden = sortData("descendente", data.athletes);
+}
+
+console.log(dataOrden);
+mostrarAthletes(dataOrden);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// desaparezca el contenedor de las cards
+/*let inicioPagina = document.getElementById("resultado");
+inicioPagina.style.display = "none";*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const ordenSelect = document.getElementById("filtro-orden");
+ordenSelect.addEventListener("change", function () {
+    const ordenData = ordenSelect.value;
+    console.log(ordenSelect.value);
+
+    if (ordenData === "ascendente") {
+        return mostrarAthletes("ascendente");
+    }
+    if (ordenData === "descendente");{
+    return mostrarAthletes("descendente");
+    }
+});*/
 
 
 
