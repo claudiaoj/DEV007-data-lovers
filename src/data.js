@@ -10,19 +10,19 @@ export const anotherExample = () => {
 
 
 export function filtrarAthlete(data, team, medal, sport, gender) {
-   let resultado = data
-   if(team){
+  let resultado = data
+  if(team){
     resultado = resultado.filter(item => item.team === team);
-   }
-   if(medal){
+}
+  if(medal){
     resultado = resultado.filter(item => item.medal === medal);
-   }
-   if(sport){
+  }
+  if(sport){
     resultado = resultado.filter(item => item.sport === sport);
-   }
-   if(gender){
+  }
+  if(gender){
     resultado = resultado.filter(item => item.gender === gender);
-   }
+  }
   return resultado;
 }
 
