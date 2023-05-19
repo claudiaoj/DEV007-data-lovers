@@ -4,27 +4,29 @@
     /*hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
     margin: 0;
     padding: 0;
+    font-family: 'Kurale', serif;
 }
 
 body {
     /*agregue propiedades pa q se mantuviera fija la imagen*/
-
-    background-size: contain;
-    /*cambie a contain*/
-    font-family: 'Kurale', serif;
+    background-image: url(images/fondo.png);
+    background-size: cover; /*cambie a contain*/
+    background-attachment: fixed;
     justify-content: center;
     width: 100%;
     align-items: center;
-    overflow-y: auto;
-    /* activa el scroll vertical */
-    max-height: 500px;
-    /* ajusta la altura máxima del contenedor según tus necesidades */
-    background-image: url(images/fondo2.png);
-    background-size: cover;
-    background-attachment: fixed;
+    overflow-y: auto; /* activa el scroll vertical */
+    max-height: 500px; /* ajusta la altura máxima del contenedor según tus necesidades */
+    
 
 }
 
+header{
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 16, 50, 1) 0%, rgba(107, 189, 224, 1) 0%, rgba(238, 243, 246, 1) 71%, rgba(255, 255, 255, 0.022846638655462215) 78%);
+    padding: 20px;
+}
 
 /*Titulo principal*/
 h1 {
@@ -63,46 +65,39 @@ input{
     
 }*/
 
-.navegador {
-    background-color: #6bbde0;
-    height: 60px;
-
-}
-
-.orden {
+.actualizaryorden{
     display: flex;
-    justify-content: right;
-    padding: 30px 80px;
-    outline: none;
+    justify-content: space-between;
+    padding: 30px 100px;
+    
 }
 
-#filtro-orden {
-    background-color: #F0AA0A;
-    color: #ffffff;
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid #F0AA0A;
-    text-transform: uppercase;
-    outline: none;
-}
-
-#filtro-orden:hover{
-    color: #122466;
-}
-
-
-#refresh-boton {
-    background-color: transparent;
-    border-radius: 10px;
+.actualizar-boton{
+    background-color: #122466;
     border: none;
-    /*padding-left: 60px;*/
-    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.actualizar-boton:hover{
+    background-color: #1B6F93;
 }
 
-#refresh-boton:hover {
-    background-color: #F0AA0A;
+.orden-boton{
+    background-color: #122466;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    appearance: none;
+    padding: 15px;
+    font-size: 15px;
+}
 
+
+.orden-boton:hover{
+    background-color: #1B6F93;
 }
 
 /*Boton Paises*/
@@ -122,19 +117,25 @@ input{
 .selectores {
     appearance: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
     text-transform: uppercase;
-    background-color: #6bbde0;
+    background-color: #122466;
     border: none;
-    height: 30px;
+    height: 40px;
     width: 250px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+
 }
 
 .selectores:hover {
     /*background-color: #F0AA0A;*/
-    color:black;
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(238, 174, 45);
+    transition: all 0.2s ease;
 
 }
 
@@ -142,6 +143,7 @@ input{
     width: 100px;
     border-radius: 100px;
 }
+
 
 /*flip prueba */
 
@@ -155,7 +157,7 @@ input{
 
 .flip-container{
     background-color: transparent;
-    width: 300px;
+    width: 350px;
     height: 250px;
     /*border: 1px solid #122466;*/
     border-radius: 30px;
@@ -191,8 +193,9 @@ input{
 }
 
 .front {
-    background-color: #6bbde0;
-    color: #122466;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 16, 50, 1) 0%, rgba(240, 170, 10, 1) 0%, rgba(240, 170, 10, 0.5606617647058824) 46%, rgba(240, 170, 10, 1) 100%, rgba(255, 255, 255, 1) 100%);
+
 
 }
 
@@ -200,6 +203,25 @@ input{
     background-color: #F0AA0A;
     color: #122466;
     transform: rotateY(180deg);
+}
+
+.nombre-atleta{
+    color: #ffffff;
+}
+
+
+footer{
+    margin: 30px 0;
+}
+
+
+.pie-pagina{
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 16, 50, 1) 0%, rgba(107, 189, 224, 1) 0%, rgba(238, 243, 246, 1) 71%, rgba(255, 255, 255, 0.022846638655462215) 78%);
+    padding: 40px 0;
+    text-align: center;
+    font-weight: bold;
 }
 
 

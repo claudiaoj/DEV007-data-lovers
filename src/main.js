@@ -5,7 +5,7 @@ import data from './data/athletes/athletes.js';
 import { 
     filtrarAthlete,
     sortData
- } from "./data.js";
+} from "./data.js";
 
 //Variables a utilizar
 const team = document.querySelector("#team");
@@ -37,17 +37,16 @@ function mostrarAthletes(athletes) {
             <div class="front">
                 <div class="card-atleta" id="imagen">
                     <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
-                    <h5>${athlete.name}</h5>
+                    <h3>${athlete.name}</h3>
                 </div>
             </div>
             <div class="back">
                 <div class="card-atleta" id="imagen">
-                    <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
-                    <h5>Nombre: ${athlete.name}</h5>
-                    <h5>Género: ${athlete.gender}</h5>
-                    <h5>País: ${athlete.team}</h5>
-                    <h5>Deporte: ${athlete.sport}</h5>
-                    <h5>Medalla: ${athlete.medal}</h5>
+                    <h3 class="nombre-atleta" >${athlete.name}</h3>
+                    <h4>Team: ${athlete.team}</h4>
+                    <h4>Medal: ${athlete.medal}</h4>
+                    <h4>Sport: ${athlete.sport}</h4>
+                    <h4>Gender: ${athlete.gender}</h4>
                 </div>
             </div>
         </div>
