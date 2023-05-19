@@ -28,7 +28,7 @@ function mostrarAthletes(athletes) {
     limpiarHTML(); // elimina el html previo
 
     athletes.slice(0, 160).forEach( athlete  => {
-
+       const imgMedal = athlete.medal == 'Gold' ? "./images/gold.png" : athlete.medal == 'Silver' ? "./images/silver.png" : "./images/bronze.png" ;
         //const { name, gender, team, sport, medal } = athlete;
         resultado.innerHTML += `
     
@@ -36,8 +36,8 @@ function mostrarAthletes(athletes) {
         <div class="card-completa">
             <div class="front">
                 <div class="card-atleta" id="imagen">
-                    <img class="imagen-medalla" src="images/medallas.png" alt="medalla" >
-                    <h3>${athlete.name}</h3>
+                     <img class="imagen-medalla" src= ${imgMedal}>
+                    <h5>${athlete.name}</h5>
                 </div>
             </div>
             <div class="back">
