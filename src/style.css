@@ -11,32 +11,42 @@ body {
     /*agregue propiedades pa q se mantuviera fija la imagen*/
     background-image: url(images/fondo.png);
     background-size: cover; /*cambie a contain*/
-    background-attachment: fixed;
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido*/
+    background-position: center;   /*se centre la imagen cuando se achica la pantalla, vertical y*/
     width: 100%;
     align-items: center;
-    overflow-y: auto; /* activa el scroll vertical */
+    /*overflow-y: auto;  activa el scroll vertical */
     max-height: 500px; /* ajusta la altura máxima del contenedor según tus necesidades */
-    
-
 }
 
 header{
     background: rgb(2, 0, 36);
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 16, 50, 1) 0%, rgba(107, 189, 224, 1) 0%, rgba(238, 243, 246, 1) 71%, rgba(255, 255, 255, 0.022846638655462215) 78%);
-    padding: 20px;
+    padding: 30px 0;
 }
 
 /*Titulo principal*/
-h1 {
-    text-align: center;
-    font-size: 60px;
-    padding: 20px 0;
-    color: #122466;
-
-
+.imagen-titulo{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.aros-olimpicos {
+    width: 140px;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 60px;
+    /*padding: 20px 0 20px 350px;*/
+    color: #122466;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}   
 
 /*.buscador{  
     display: flex;
@@ -77,10 +87,14 @@ input{
     border: none;
     border-radius: 10px;
     padding: 5px;
+    cursor: pointer;
     
 }
 .actualizar-boton:hover{
-    background-color: #1B6F93;
+    background-color: #F0AA0A;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    
 }
 
 .orden-boton{
@@ -91,13 +105,16 @@ input{
     font-weight: bold;
     text-transform: uppercase;
     appearance: none;
-    padding: 15px;
-    font-size: 15px;
+    padding: 11px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 
 .orden-boton:hover{
-    background-color: #1B6F93;
+    background-color: #F0AA0A;
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 /*Boton Paises*/
@@ -132,16 +149,18 @@ input{
 }
 
 .selectores:hover {
-    /*background-color: #F0AA0A;*/
-    color: rgba(255, 255, 255, 1) !important;
+    background-color: #F0AA0A;
+    /*color: rgba(255, 255, 255, 1) !important;
     box-shadow: 0 4px 16px rgb(238, 174, 45);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease;*/
+    transform: scale(1.1);
+    transition: transform 0.5s;
 
 }
 
 .imagen-medalla {
-    width: 100px;
-    border-radius: 100px;
+    width: 110px;
+    border-radius: 30px;
 }
 
 
@@ -157,8 +176,8 @@ input{
 
 .flip-container{
     background-color: transparent;
-    width: 350px;
-    height: 250px;
+    width: 280px;
+    height: 300px;
     /*border: 1px solid #122466;*/
     border-radius: 30px;
     perspective: 1000px;
@@ -173,6 +192,7 @@ input{
     transition: transform 1s;
     transform-style: preserve-3d;
     cursor: pointer;
+    font-size: 10px;
 
 }
 
@@ -193,10 +213,8 @@ input{
 }
 
 .front {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 16, 50, 1) 0%, rgba(240, 170, 10, 1) 0%, rgba(240, 170, 10, 0.5606617647058824) 46%, rgba(240, 170, 10, 1) 100%, rgba(255, 255, 255, 1) 100%);
-
-
+    background: rgb(227, 228, 230);
+    background: linear-gradient(94deg, rgba(227, 228, 230, 0.7875525210084033) 0%, rgba(231, 232, 234, 1) 52%, rgba(227, 228, 230, 0.7231267507002801) 100%);
 }
 
 .back {
@@ -222,6 +240,9 @@ footer{
     padding: 40px 0;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 

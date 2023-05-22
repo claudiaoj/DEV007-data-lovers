@@ -28,7 +28,7 @@ function mostrarAthletes(athletes) {
     limpiarHTML(); // elimina el html previo
 
     athletes.slice(0, 160).forEach( athlete  => {
-       const imgMedal = athlete.medal == 'Gold' ? "./images/gold.png" : athlete.medal == 'Silver' ? "./images/silver.png" : "./images/bronze.png" ;
+    const imgMedal = athlete.medal == 'Gold' ? "./images/gold.png" : athlete.medal == 'Silver' ? "./images/silver.png" : "./images/bronze.png" ;
         //const { name, gender, team, sport, medal } = athlete;
         resultado.innerHTML += `
     
@@ -36,8 +36,8 @@ function mostrarAthletes(athletes) {
         <div class="card-completa">
             <div class="front">
                 <div class="card-atleta" id="imagen">
-                     <img class="imagen-medalla" src= ${imgMedal}>
-                    <h5>${athlete.name}</h5>
+                    <img class="imagen-medalla" src= ${imgMedal}>
+                    <h4>${athlete.name}</h4>
                 </div>
             </div>
             <div class="back">
@@ -93,9 +93,15 @@ gender.addEventListener("change", e => {
 });
 
 
-//Para que se actualice los datos de select
+//Actualizar los datos de select
 const refreshBoton = document.getElementById("refresh-boton");
 refreshBoton.addEventListener("click", () => {
+location.reload(); //método que actualiza la página actual.
+});
+
+//Actualizar con el titulo 
+const refreshTitle = document.getElementById("title-refresh");
+refreshTitle.addEventListener("click", () => {
 location.reload(); //método que actualiza la página actual.
 });
 
