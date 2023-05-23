@@ -64,7 +64,8 @@ function mostrarAthletes(athletes) {
 }
 //Para mostrar en html la funcion mostrarAthletes.
 document.addEventListener("DOMContentLoaded", () => {
-mostrarAthletes(data.athletes);
+    mostrarAthletes(data.athletes);
+
 })
 
 //EventListener para los select
@@ -89,7 +90,7 @@ sport.addEventListener("change", e => {
 gender.addEventListener("change", e => {
     datosBusqueda.gender = e.target.value;
     const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    mostrarAthletes(resultado)
+    mostrarAthletes(resultado);
 });
 
 
@@ -123,6 +124,22 @@ console.log(dataOrden);
 mostrarAthletes(dataOrden);
 });
 
+
+
+//Prueba para realizar ventana modal de graficos
+/*const open = document.getElementById("open");
+const modal_container = document.getElementById("modal_container");
+const close = document.getElementById("close");
+
+
+open.addEventListener("click", () => {
+    modal_container.classList.add("show");  
+    
+});
+
+close.addEventListener("click", () => {
+modal_container.classList.remove("show");
+});*/
 
 
 
