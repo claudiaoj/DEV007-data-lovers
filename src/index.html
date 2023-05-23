@@ -31,7 +31,7 @@
       </button>
     </div>-->
 
-    <nav class="navegador">
+    <nav class="navegador" id="navBar">
     
       <div class="botones-general">
         
@@ -126,7 +126,7 @@
           </select>
         </div>
     
-        <div class="contenido-select">
+        <div class="contenido-select" id="genFemMas">
           <select name="select" class="selectores" id="gender">
             <label for="">
               <option value="gender">Género</option>
@@ -145,7 +145,17 @@
 
   <main class="main-contenido">
 
-    
+    <section class="página-inicio" name="" id="inicio">
+      <div class="introduccion">
+        <h5>“¡Bienvenid@s! En esta página encontrarás todo lo relacionado a los atletas que tuvieron una
+          destacada participación en los Juegos Olímpicos de Río 2016”</h5>
+      </div>
+      <div class="img">
+        <img src="./images/photo 1.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="primera-página" id="primera">
       <section class="actualizaryorden">
         <div>
           <button class="actualizar-boton" id="refresh-boton">
@@ -157,7 +167,9 @@
             </svg>
           </button>
         </div>
-      <!--<section class="orden"></section>-->
+      <section class="página-inicio">
+        <div class="introducción" id="calculo"></div>
+      </section>
         <div>
           <select name="select" class="orden-boton" id="filtro-orden">
             <label for="">
@@ -168,9 +180,10 @@
           </select>
         </div>
       </section>
-
-    <section>
-      <div class="card" id="resultado"></div>
+  
+      <section>
+        <div class="card" id="resultado"></div>
+      </section>
     </section>
 
     <!--Esta es la página de estadisticas
