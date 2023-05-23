@@ -84,6 +84,19 @@ input{
     
 }*/
 
+h5{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
 .actualizaryorden{
     display: flex;
     justify-content: space-between;

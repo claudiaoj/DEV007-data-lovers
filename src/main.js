@@ -23,6 +23,9 @@ const datosBusqueda = {
     medal: "",
 }
 
+document.getElementById("primera").style.display = "none"; //oculto toda la seccion de inicio 
+document.getElementById("inicio").style.display = "block";
+
 function mostrarAthletes(athletes) {
 
     limpiarHTML(); // elimina el html previo
@@ -72,41 +75,50 @@ document.addEventListener("DOMContentLoaded", () => {
 team.addEventListener("change", e => {  
     datosBusqueda.team = e.target.value;
     const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";
     mostrarAthletes(resultado)
 });
 
 medal.addEventListener("change", e => {
     datosBusqueda.medal = e.target.value;
     const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";   
     mostrarAthletes(resultado)
 });
 
 sport.addEventListener("change", e => {
     datosBusqueda.sport = e.target.value;
     const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";
     mostrarAthletes(resultado)
 });
 
 gender.addEventListener("change", e => {
     datosBusqueda.gender = e.target.value;
     const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    mostrarAthletes(resultado);
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";
+    mostrarAthletes(resultado)
 });
-
 
 //Actualizar los datos de select
 const refreshBoton = document.getElementById("refresh-boton");
 refreshBoton.addEventListener("click", () => {
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";
 location.reload(); //método que actualiza la página actual.
 });
 
 //Actualizar con el titulo 
 const refreshTitle = document.getElementById("title-refresh");
 refreshTitle.addEventListener("click", () => {
+    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+    document.getElementById("primera").style.display = "block";
 location.reload(); //método que actualiza la página actual.
 });
-
-
 
 //Orden A-Z
 const ordenSelect = document.getElementById("filtro-orden");
@@ -119,8 +131,9 @@ if (ordenNombre === "ascendente") {
 } else if (ordenNombre === "descendente") {
     dataOrden = sortData("descendente", data.athletes);
 }
-
-console.log(dataOrden);
+document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+document.getElementById("primera").style.display = "block";
+/*console.log(dataOrden);*/
 mostrarAthletes(dataOrden);
 });
 
