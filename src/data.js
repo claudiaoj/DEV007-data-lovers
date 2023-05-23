@@ -55,6 +55,3 @@ export function sortData(order, data) {
 
   return dataOrden;
 }
-
-
-

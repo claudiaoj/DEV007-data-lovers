@@ -67,7 +67,8 @@ function mostrarAthletes(athletes) {
 }
 //Para mostrar en html la funcion mostrarAthletes.
 document.addEventListener("DOMContentLoaded", () => {
-mostrarAthletes(data.athletes);
+    mostrarAthletes(data.athletes);
+
 })
 
 //EventListener para los select
@@ -101,16 +102,7 @@ gender.addEventListener("change", e => {
     document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
     document.getElementById("primera").style.display = "block";
     mostrarAthletes(resultado)
-    const countResultado= datosBusqueda.gender.length;
-    const calculoType= (countResultado*100)/(251);
-    document.getElementById("estadistica").innerHTML = calculoType.toFixed(2) + ("% de mujeres del total de atletas");
 });
-
-if (datosBusqueda.gender === "F"){
-    const recorrerData = filtrarAthlete.gender.length;
-    const calculoGenero = (recorrerData * 100) / 1577;
-    document.getElementById("estadistica").innerHTML = calculoGenero.toFixed(2) + ("% son mujeres del total de atletas")
-}
 
 //Actualizar los datos de select
 const refreshBoton = document.getElementById("refresh-boton");
@@ -127,8 +119,6 @@ refreshTitle.addEventListener("click", () => {
     document.getElementById("primera").style.display = "block";
 location.reload(); //método que actualiza la página actual.
 });
-
-
 
 //Orden A-Z
 const ordenSelect = document.getElementById("filtro-orden");
@@ -147,6 +137,22 @@ document.getElementById("primera").style.display = "block";
 mostrarAthletes(dataOrden);
 });
 
+
+
+//Prueba para realizar ventana modal de graficos
+/*const open = document.getElementById("open");
+const modal_container = document.getElementById("modal_container");
+const close = document.getElementById("close");
+
+
+open.addEventListener("click", () => {
+    modal_container.classList.add("show");  
+    
+});
+
+close.addEventListener("click", () => {
+modal_container.classList.remove("show");
+});*/
 
 
 
