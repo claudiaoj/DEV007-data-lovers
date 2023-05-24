@@ -121,7 +121,6 @@
               <option value="Volleyball">Voleibol</option>
               <option value="Beach Volleyball">Voleibol Playa</option>
               <option value="Water Polo">WaterPolo</option>
-    
             </label>
           </select>
         </div>
@@ -136,6 +135,16 @@
           </select>
         </div>
         
+        <div class="contenido-select" id="order">
+          <select name="select" class="selectores" id="filtro-orden">
+            <label for="">
+              <option value="orden">Orden</option>
+              <option value="ascendente">A-Z</option>
+              <option value="descendente">Z-A</option>
+            </label>
+          </select>
+        </div>
+      
       </div>
     
     </nav>
@@ -144,18 +153,18 @@
 
   <main class="main-contenido">
 
-    <section class="página-inicio" name="" id="inicio">
-      <div class="introduccion">
-        <h5>“¡Bienvenid@s! En esta página encontrarás todo lo relacionado a los atletas que tuvieron una
-          destacada participación en los Juegos Olímpicos de Río 2016”</h5>
+    <section class="página-inicio">
+      <div class="introduccion" id="inicio">
+        <h2>¡Bienvenid@s!</h2>
+        <h5>“Acá podrás seleccionar información de los Atletas destacados de Río 2016”</h5>
       </div>
-      <div class="img">
-        <img src="./images/photo 1.jpg" alt="">
+      <div id="resultados-calculo">
+        <button class="btnCalcular" id="boton-calcular">Dato Curioso</button>
       </div>
     </section>
 
     <section class="primera-página" id="primera">
-      <section class="actualizaryorden">
+      <!--<section class="actualizaryorden">
         <div>
           <button class="actualizar-boton" id="refresh-boton">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="40" height="40"
@@ -165,49 +174,12 @@
               <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
             </svg>
           </button>
-        </div>
+        </div>-->
 
-      <section class="página-inicio">
-        <div class="introducción" id="calculo"></div>
-      </section>
-
-          <!--Prueba de ventana modal para los calculos
-          <div>
-            <button id="open" class="btn-abrircerrar">Información</button>
-            <div id="modal_container" class="modal-container">
-              <div class="modal" id="infoModal">
-                <h2>Información de Participantes por Género</h2>
-                <p class="info" ></p>
-                <button id="close" class="btn-abrircerrar">Cerrar</button>
-              </div>
-            </div>
-          </div>-->
-
-      <section class="orden"></section>
-
-        <div>
-          <select name="select" class="orden-boton" id="filtro-orden">
-            <label for="">
-              <option value="orden">Orden</option>
-              <option value="ascendente">A-Z</option>
-              <option value="descendente">Z-A</option>
-            </label>
-          </select>
-        </div>
-      </section>
-  
       <section>
         <div class="card" id="resultado"></div>
       </section>
     </section>
-
-    <!--Esta es la página de estadisticas
-      <section id="pagina-estadistica">
-        <div>
-          <h2></h2>
-        </div>
-
-      </section>-->
 
   </main>
 
