@@ -13,7 +13,7 @@ export function filtrarAthlete(data, team, medal, sport, gender) {
   let resultado = data
   if(team){
     resultado = resultado.filter(item => item.team === team);
-}
+  }
   if(medal){
     resultado = resultado.filter(item => item.medal === medal);
   }
