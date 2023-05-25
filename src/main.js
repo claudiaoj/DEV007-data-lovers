@@ -27,11 +27,11 @@ const datosBusqueda = {
 document.getElementById("inicio").style.display = "block";*/
 
 function mostrarAthletes(athletes) {
-    limpiarHTML(); // elimina el html previo
-    athletes.slice(0, 160).forEach(athlete => {
-        const imgMedal = athlete.medal === 'Gold' ? "./images/gold.png" : athlete.medal === 'Silver' ? "./images/silver.png" : "./images/bronze.png";
-        //const { name, gender, team, sport, medal } = athlete;
-        resultado.innerHTML += `
+  limpiarHTML(); // elimina el html previo
+  athletes.slice(0, 160).forEach(athlete => {
+    const imgMedal = athlete.medal === 'Gold' ? "./images/gold.png" : athlete.medal === 'Silver' ? "./images/silver.png" : "./images/bronze.png";
+    //const { name, gender, team, sport, medal } = athlete;
+    resultado.innerHTML += `
     
     <div class="flip-container">
         <div class="card-completa">
@@ -53,52 +53,52 @@ function mostrarAthletes(athletes) {
         </div>
     </div>
     `
-    });
+  });
 
-    //Limpiar html
-    function limpiarHTML() {
-        while (resultado.firstChild) {
-            resultado.removeChild(resultado.firstChild);
-        }
+  //Limpiar html
+  function limpiarHTML() {
+    while (resultado.firstChild) {
+      resultado.removeChild(resultado.firstChild);
     }
+  }
 }
 
 //Para mostrar en html la funcion mostrarAthletes.
 document.addEventListener("DOMContentLoaded", () => {
-    mostrarAthletes(data.athletes);
+  mostrarAthletes(data.athletes);
 })
 
 //EventListener para los select
 team.addEventListener("change", e => {
-    datosBusqueda.team = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    mostrarAthletes(resultado)
+  datosBusqueda.team = e.target.value;
+  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  mostrarAthletes(resultado)
 });
 
 medal.addEventListener("change", e => {
-    datosBusqueda.medal = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    mostrarAthletes(resultado)
+  datosBusqueda.medal = e.target.value;
+  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  mostrarAthletes(resultado)
 });
 
 sport.addEventListener("change", e => {
-    datosBusqueda.sport = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    mostrarAthletes(resultado)
+  datosBusqueda.sport = e.target.value;
+  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  mostrarAthletes(resultado)
 });
 
 gender.addEventListener("change", e => {
-    datosBusqueda.gender = e.target.value;
-    const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    mostrarAthletes(resultado)
+  datosBusqueda.gender = e.target.value;
+  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  mostrarAthletes(resultado)
 });
 
 //Actualizar los datos de select
@@ -112,26 +112,26 @@ refreshBoton.addEventListener("click", () => {
 //Actualizar con el titulo 
 const refreshTitle = document.getElementById("title-refresh");
 refreshTitle.addEventListener("click", () => {
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    location.reload(); //método que actualiza la página actual.
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  location.reload(); //método que actualiza la página actual.
 });
 
 //Orden A-Z
 const ordenSelect = document.getElementById("filtro-orden");
 ordenSelect.addEventListener("change", () => {
-    const ordenNombre = ordenSelect.value;
-    let dataOrden;
+  const ordenNombre = ordenSelect.value;
+  let dataOrden;
 
-    if (ordenNombre === "ascendente") {
-        dataOrden = sortData("ascendente", data.athletes);
-    } else if (ordenNombre === "descendente") {
-        dataOrden = sortData("descendente", data.athletes);
-    }
-    document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-    document.getElementById("primera").style.display = "block";
-    /*console.log(dataOrden);*/
-    mostrarAthletes(dataOrden);
+  if (ordenNombre === "ascendente") {
+    dataOrden = sortData("ascendente", data.athletes);
+  } else if (ordenNombre === "descendente") {
+    dataOrden = sortData("descendente", data.athletes);
+  }
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("primera").style.display = "block";
+  /*console.log(dataOrden);*/
+  mostrarAthletes(dataOrden);
 });
 
 //Calculo cantidad de atletas
