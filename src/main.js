@@ -151,9 +151,9 @@ compute.addEventListener('click', () => {
   const contenedorResultados = document.getElementById("resultados-calculo");
   contenedorResultados.innerHTML = `
 <p class="cantidadGenero">
-    Cantidad de atletas según género:
+    "Cantidad de atletas según género:
     ${contadorFemenino} mujeres y
-    ${contadorMasculino} hombres
+    ${contadorMasculino} hombres"
 </p>
 
 `;

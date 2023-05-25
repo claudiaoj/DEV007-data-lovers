@@ -56,36 +56,9 @@ header{
     padding-bottom: 20px;
 }   
 
-/*.buscador{  
-    display: flex;
-    justify-content: end;
-    padding-bottom: 20px;
-    padding-top: 0;
-    padding-right: 30px;
-    
-}
-button{
-    background-color: transparent;
-    color: #ffffff;
-    font-size: 15px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid #122466;
-    text-transform: uppercase;
-    outline: none;
-}
-input{
-    border-radius: 10px;
-    padding-left: 3px;
-    outline: none;
-    border: 2px solid #122466 ;
-
-    
-}*/
-
 h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 2.5rem;
     color: rgba(5, 85, 5, 0.993);
@@ -93,11 +66,41 @@ h2{
 
 h5{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     color: rgba(5, 85, 5, 0.993);
     text-shadow: 2px 2px 2px #faf9f9;
+}
+
+.btnCalcular {
+    background-color: #122466;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    margin: 20px 0 30px 70px;
+    padding: 0 30px;
+}
+
+.btnCalcular:hover{
+    background-color: #F0AA0A;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+/*texto donde aparece el calculo*/
+.cantidadGenero {
+    display: inline-block;
+    margin: 30px 70px;
+    font-size: 20px;
+    background-color: #F0AA0A;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(110, 109, 110, 0.64); /*sombra*/
+    -moz-box-shadow: 0px 5px 15px 0px rgba(110, 109, 110, 0.64);
+    box-shadow: 0px 5px 15px 0px rgba(110, 109, 110, 0.64);
 }
 
 /*.actualizaryorden{
@@ -182,17 +185,6 @@ h5{
 
 }
 
-.btnCalcular{
-    background-color: #122466;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-size: 18px;
-    padding: 5px;
-    align-items: center;
-}
-
 .imagen-medalla {
     width: 110px;
     border-radius: 30px;
@@ -206,8 +198,19 @@ h5{
     flex-wrap: wrap;
     gap: 28px;
     justify-content: space-between;
-    padding: 0px 70px;
+    padding: 10px 70px;
+    /*agregue la prueba no mas desde aqui*/
+    margin: 0 40px;
+    /*color de fondo*/
+    background: rgb(231, 234, 240);
+    background: linear-gradient(94deg, rgba(231, 234, 240, 0.7875525210084033) 0%, rgba(247, 249, 251, 0.7931547619047619) 43%, rgba(227, 228, 230, 0.7231267507002801) 100%);
+    border-radius: 10px;
+    /*sombra*/
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 111, 112, 0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 111, 112, 0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112, 111, 112, 0.54);
 }
+
 
 .flip-container{
     background-color: transparent;
