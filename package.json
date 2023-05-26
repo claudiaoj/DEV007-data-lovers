@@ -30,5 +30,20 @@
     "createdAt": "2023-04-19T01:38:09.874Z",
     "version": "6.2.0",
     "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
-  }
+  },
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiaoj/DEV007-data-lovers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/claudiaoj/DEV007-data-lovers/issues"
+  },
+  "homepage": "https://github.com/claudiaoj/DEV007-data-lovers#readme"
 }

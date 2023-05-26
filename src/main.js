@@ -1,11 +1,8 @@
 //import athletes from './data/athletes/athletes.js';
-import data from './data/athletes/athletes.js';
+import data from "./data/athletes/athletes.js";
 //console.log(data.athletes);
 
-import {
-  filtrarAthlete,
-  sortData,
-} from "./data.js";
+import { filtrarAthlete, sortData } from "./data.js";
 
 //Variables a utilizar
 const team = document.querySelector("#team");
@@ -21,15 +18,20 @@ const datosBusqueda = {
   team: "",
   sport: "",
   medal: "",
-}
+};
 
 /*document.getElementById("primera").style.display = "none"; //oculto toda la seccion de inicio 
 document.getElementById("inicio").style.display = "block";*/
 
 function mostrarAthletes(athletes) {
   limpiarHTML(); // elimina el html previo
-  athletes.slice(0, 160).forEach(athlete => {
-    const imgMedal = athlete.medal === 'Gold' ? "./images/gold.png" : athlete.medal === 'Silver' ? "./images/silver.png" : "./images/bronze.png";
+  athletes.slice(0, 80).forEach((athlete) => {
+    const imgMedal =
+      athlete.medal === "Gold"
+        ? "./images/gold.png"
+        : athlete.medal === "Silver"
+        ? "./images/silver.png"
+        : "./images/bronze.png";
     //const { name, gender, team, sport, medal } = athlete;
     resultado.innerHTML += `
     
@@ -52,7 +54,7 @@ function mostrarAthletes(athletes) {
             </div>
         </div>
     </div>
-    `
+    `;
   });
 
   //Limpiar html
@@ -66,39 +68,63 @@ function mostrarAthletes(athletes) {
 //Para mostrar en html la funcion mostrarAthletes.
 document.addEventListener("DOMContentLoaded", () => {
   mostrarAthletes(data.athletes);
-})
+});
 
 //EventListener para los select
-team.addEventListener("change", e => {
+team.addEventListener("change", (e) => {
   datosBusqueda.team = e.target.value;
-  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  const resultado = filtrarAthlete(
+    data.athletes,
+    datosBusqueda.team,
+    datosBusqueda.medal,
+    datosBusqueda.sport,
+    datosBusqueda.gender
+  );
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
-  mostrarAthletes(resultado)
+  mostrarAthletes(resultado);
 });
 
-medal.addEventListener("change", e => {
+medal.addEventListener("change", (e) => {
   datosBusqueda.medal = e.target.value;
-  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  const resultado = filtrarAthlete(
+    data.athletes,
+    datosBusqueda.team,
+    datosBusqueda.medal,
+    datosBusqueda.sport,
+    datosBusqueda.gender
+  );
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
-  mostrarAthletes(resultado)
+  mostrarAthletes(resultado);
 });
 
-sport.addEventListener("change", e => {
+sport.addEventListener("change", (e) => {
   datosBusqueda.sport = e.target.value;
-  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  const resultado = filtrarAthlete(
+    data.athletes,
+    datosBusqueda.team,
+    datosBusqueda.medal,
+    datosBusqueda.sport,
+    datosBusqueda.gender
+  );
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
-  mostrarAthletes(resultado)
+  mostrarAthletes(resultado);
 });
 
-gender.addEventListener("change", e => {
+gender.addEventListener("change", (e) => {
   datosBusqueda.gender = e.target.value;
-  const resultado = filtrarAthlete(data.athletes, datosBusqueda.team, datosBusqueda.medal, datosBusqueda.sport, datosBusqueda.gender);
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  const resultado = filtrarAthlete(
+    data.athletes,
+    datosBusqueda.team,
+    datosBusqueda.medal,
+    datosBusqueda.sport,
+    datosBusqueda.gender
+  );
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
-  mostrarAthletes(resultado)
+  mostrarAthletes(resultado);
 });
 
 //Actualizar los datos de select
@@ -109,10 +135,10 @@ refreshBoton.addEventListener("click", () => {
   location.reload(); //método que actualiza la página actual.
 });*/
 
-//Actualizar con el titulo 
+//Actualizar con el titulo
 const refreshTitle = document.getElementById("title-refresh");
 refreshTitle.addEventListener("click", () => {
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
   location.reload(); //método que actualiza la página actual.
 });
@@ -128,7 +154,7 @@ ordenSelect.addEventListener("change", () => {
   } else if (ordenNombre === "descendente") {
     dataOrden = sortData("descendente", data.athletes);
   }
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
   /*console.log(dataOrden);*/
   mostrarAthletes(dataOrden);
@@ -136,15 +162,15 @@ ordenSelect.addEventListener("change", () => {
 
 //Calculo cantidad de atletas
 const compute = document.getElementById("boton-calcular");
-compute.addEventListener('click', () => {
+compute.addEventListener("click", () => {
   let contadorFemenino = 0;
   let contadorMasculino = 0;
 
   for (let i = 0; i < data.athletes.length; i++) {
-    if (data.athletes[i].gender === 'F') {
+    if (data.athletes[i].gender === "F") {
       contadorFemenino++;
     }
-    if (data.athletes[i].gender === 'M') {
+    if (data.athletes[i].gender === "M") {
       contadorMasculino++;
     }
   }
@@ -158,9 +184,3 @@ compute.addEventListener('click', () => {
 
 `;
 });
-
-
-
-
-
-
