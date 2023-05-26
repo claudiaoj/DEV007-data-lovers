@@ -20,9 +20,6 @@ const datosBusqueda = {
   medal: "",
 };
 
-/*document.getElementById("primera").style.display = "none"; //oculto toda la seccion de inicio 
-document.getElementById("inicio").style.display = "block";*/
-
 function mostrarAthletes(athletes) {
   limpiarHTML(); // elimina el html previo
   athletes.slice(0, 80).forEach((athlete) => {
@@ -126,14 +123,6 @@ gender.addEventListener("change", (e) => {
   document.getElementById("primera").style.display = "block";
   mostrarAthletes(resultado);
 });
-
-//Actualizar los datos de select
-/*const refreshBoton = document.getElementById("refresh-boton");
-refreshBoton.addEventListener("click", () => {
-  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio 
-  document.getElementById("primera").style.display = "block";
-  location.reload(); //método que actualiza la página actual.
-});*/
 
 //Actualizar con el titulo
 const refreshTitle = document.getElementById("title-refresh");
