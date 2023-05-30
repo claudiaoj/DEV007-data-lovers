@@ -7,22 +7,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Kurale&display=swap" rel="stylesheet">
   <link rel="icon" href="images/rio2016.png">
   <link rel="stylesheet" href="style.css" />
-
 </head>
 
 <body class="contenido">
-  <!--<div id="root"></div>-->
 
   <header class="titulo-buscador">
+    <!--Contiene la imagen de anillos y el titulo principal-->
     <div class="imagen-titulo">
       <a href="https://olympics.com/es/olympic-games/rio-2016" target="_blank"><img src="images/olimpicos.png" class="aros-olimpicos" alt="juegos-olimpicos"></a>
       <h1 class="title" id="title-refresh">Info Atletas</h1>
     </div> 
 
     <nav class="navegador" id="navBar">
-    
+    <!--Contiene los selectores-->
       <div class="botones-general">
-        
         <div class="contenido-select">
           <label for="">
             <select name="select" class="selectores" id="team">
@@ -141,18 +139,21 @@
 
   <main class="main-contenido">
 
+    <!--Seccion de la pagina de inicio-->
     <section class="página-inicio">
       <div class="introduccion" id="inicio">
         <h2>¡Bienvenid@s!</h2>
         <h5>“Acá podrás seleccionar información de los Atletas destacados de Río 2016”</h5>
       </div>
+
+      <!--Boton para el calculo de genero-->
       <div id="resultados-calculo">
         <button class="btnCalcular" id="boton-calcular">¿Sabías que...?</button>
       </div>
     </section>
 
+    <!--Contiene las cards-->
     <section class="primera-página" id="primera">
-      
       <section>
         <div class="card sombra" id="resultado"></div>
       </section>
@@ -160,8 +161,10 @@
 
   </main>
 
+    <!--Pie de pagina-->
   <footer class="pie-pagina">©Creado por Claudia y Gabriela, LABORATORIA DEV007-2023
   </footer>
+
 
   <script src="main.js" type="module"></script>
 </body>

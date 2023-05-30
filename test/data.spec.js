@@ -60,7 +60,7 @@ const testData = [
 
 describe("Testeando filterAthlete", () => {
   it("Deberían ser 4 atletas", () => {
-    expect(filtrarAthlete(testData)).toHaveLength(4);
+    expect(filtrarAthlete(testData)).toHaveLength(4); //comprobar que un objeto tiene una  propiedad .length y está configurado en un determinado valor numérico.
   });
   it("Filtra por pais", () => {
     expect(filtrarAthlete(testData, "Nigeria")).toEqual([
