@@ -97,7 +97,7 @@ Se puede observar la página web final desde un navegador. Puedes ver el proyect
  
 ## 5. Pruebas Unitarias
 
-Se logró obtener un porcentaje de 87,8% de los test realizando, cumpliendo con la cobertura del 70% o más.
+Se logró obtener un porcentaje de 93,1% de los test realizando, cumpliendo con la cobertura del 70% o más.
 <br>
 
 <img src="/img/pruebasunitarias.png" style= width:75%>
