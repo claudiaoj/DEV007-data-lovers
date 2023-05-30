@@ -1,8 +1,7 @@
+//Importamos las funciones a testear desde data.js
 import { filtrarAthlete, sortData } from "../src/data.js";
-//import athletes from "../src/data/athletes/athletes.js";
 
-//import data from "./data/athletes/athletes.js";
-
+//Testeamos la función filtrar por atleta
 describe("filtrarAthlete", () => {
   it("Es una función", () => {
     expect(typeof filtrarAthlete).toBe("function");
@@ -27,6 +26,8 @@ describe("filtrarAthlete", () => {
   });
 });
 
+
+//Generamos una constante con algunos de los tletas para testear la función filtrar por País, medalla, deporte y género
 const testData = [
   {
     name: "Oleg Antonov",
@@ -145,6 +146,7 @@ describe("Testeando filterAthlete", () => {
   });
 });
 
+//Testeamos la función ordenar de manera ascendente y descendente con algunos nombres de atletas
 describe("sortData", () => {
   it("Es una function", () => {
     expect(typeof sortData).toBe("function");

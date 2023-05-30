@@ -71,10 +71,10 @@ Cuando los usuarios requieran encontrar información respecto a los atletas part
 
 Se muestran los resultados, según los testeos de usabilidad realizados a diferentes usuarios, a continuación todos los comentarios realizados por parte de ellos.
 
-a)Me gustaria que todos los botones esten en una misma linea.<br>
-b)Me gustaria que las imágenes que se muestran en los atletas, podrian indicar que medalla fue la que ganaron.<br>
-c)Creo que el color amarillo de las tarjetas no se ve bien según la paleta de colores.<br>
-d)Me gustaria cambiar la barra de navegación por botones y que al presionarlos éstos se agranden.
+a) Me gustaria que todos los botones esten en una misma linea.<br>
+b) Me gustaria que las imágenes que se muestran en los atletas, podrian indicar que medalla fue la que ganaron.<br>
+c) Creo que el color amarillo de las tarjetas no se ve bien según la paleta de colores.<br>
+d) Me gustaria cambiar la barra de navegación por botones y que al presionarlos éstos se agranden.
 
 
 ### Prototipo de alta fidelidad final

@@ -8,6 +8,7 @@ export const anotherExample = () => {
   return 'OMG';
 };*/
 
+//Creamos la función que nos permite filtrar la data, con los parámetros que vamos a utilizar 
 export function filtrarAthlete(data, team, medal, sport, gender) {
   //La variable se inicia con el valor del parámetro data. Esto asegura que resultado comience con todos los datos de atletas sin filtrar.
   let resultado = data;
@@ -26,8 +27,7 @@ export function filtrarAthlete(data, team, medal, sport, gender) {
   return resultado;
 }
 
-//Orden A-Z
-
+//Creamos la función que nos permite ordenar la data de manera ascendente y descendente
 export function sortData(order, data) {
   let dataOrden;
   //Si el parametro order es igual a "ascendente", se realiza el ordenamiento ascendente.
