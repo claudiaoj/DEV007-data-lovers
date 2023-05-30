@@ -1,7 +1,7 @@
-//Importa la data.
+//importamos la data desde el archivo athletes.js
 import data from "./data/athletes/athletes.js";
 
-//Importa las funciones de data.js
+//importamos las funciones desde data.js
 import { filtrarAthlete, sortData } from "./data.js";
 
 //Variables a utilizar
@@ -12,7 +12,7 @@ const gender = document.querySelector("#gender");
 
 const resultado = document.querySelector("#resultado");
 
-//Se crea un objeto que guarda la seleccion del usuario.
+//Generar un objeto con la busqueda, que guarde la seleccion del usuario
 const datosBusqueda = {
   gender: "",
   team: "",
@@ -20,26 +20,19 @@ const datosBusqueda = {
   medal: "",
 };
 
-//Funcion que toma el arreglo de atletas como parámetro y muestra la información de cada atleta en el HTML.
+//Creamos la función que nos muetra la data de los atletas
 function mostrarAthletes(athletes) {
-  limpiarHTML(); //Funcion que elimina el html previo
-
-  //Se toma el parametro athlete, slice extrae de 0 a 80 atletas y devuelve un nuevo array donde
-  //forEach ejecuta la función indicada una vez por cada elemento.
-  athletes.slice(0, 80).forEach((athlete) => {
-    /*eslint-disable*/ //Se agrego eslint para que se ignore esta identacion y se pueda ejecutar los test.
-    //Si la condición de medal es true, el operador retorna la imagen gold, de lo contrario, devuelve el valor de silver, sino bronze.
-    const imgMedal =
+  limpiarHTML(); // elimina el html previo
+  athletes.slice(0, 80).forEach((athlete) => {// el slice nos indica cuanta data queremos mostrar en pantalla
+    const imgMedal =//Agregamos una contante que nos muetre la imagen de la medalla, dependiendo de cual ha obtenido el atleta con un oprador condicional ternario
       athlete.medal === "Gold"
         ? "./images/gold.png"
         : athlete.medal === "Silver"
-        ? "./images/silver.png"
-        : "./images/bronze.png";
-    /* eslint-enable */
-
-    //Agrega las cards, con el contenido html.
+          ? "./images/silver.png"
+          : "./images/bronze.png";
+    //const { name, gender, team, sport, medal } = athlete;
+    //Generar las cards de los atletas con un template
     resultado.innerHTML += `
-
     <div class="flip-container">
         <div class="card-completa">
             <div class="front">
@@ -62,9 +55,8 @@ function mostrarAthletes(athletes) {
     `;
   });
 
-  //"Limpia" la seleccion del html
+  //Función que limpia el html
   function limpiarHTML() {
-    // Se utiliza un bucle while para eliminar todos los elementos hijos con el id resultado.
     while (resultado.firstChild) {
       resultado.removeChild(resultado.firstChild);
     }
@@ -72,7 +64,6 @@ function mostrarAthletes(athletes) {
 }
 
 //Para mostrar en html la funcion mostrarAthletes.
-//Esta función se ejecutará una vez que todo el contenido HTML haya sido cargado y esté disponible para su manipulación.
 document.addEventListener("DOMContentLoaded", () => {
   mostrarAthletes(data.athletes);
 });
@@ -80,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
 //EventListener para los select
 team.addEventListener("change", (e) => {
   datosBusqueda.team = e.target.value;
-
   const resultado = filtrarAthlete(
     data.athletes,
     datosBusqueda.team,
@@ -88,15 +78,13 @@ team.addEventListener("change", (e) => {
     datosBusqueda.sport,
     datosBusqueda.gender
   );
-
-  document.getElementById("inicio").style.display = "none"; //Oculto toda la seccion de inicio
-  document.getElementById("primera").style.display = "block";
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
+  document.getElementById("primera").style.display = "block";//muestra la sección de las cards
   mostrarAthletes(resultado);
 });
 
 medal.addEventListener("change", (e) => {
   datosBusqueda.medal = e.target.value;
-
   const resultado = filtrarAthlete(
     data.athletes,
     datosBusqueda.team,
@@ -104,15 +92,13 @@ medal.addEventListener("change", (e) => {
     datosBusqueda.sport,
     datosBusqueda.gender
   );
-
-  document.getElementById("inicio").style.display = "none"; //Oculto toda la seccion de inicio
+  document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
   mostrarAthletes(resultado);
 });
 
 sport.addEventListener("change", (e) => {
   datosBusqueda.sport = e.target.value;
-
   const resultado = filtrarAthlete(
     data.athletes,
     datosBusqueda.team,
@@ -120,7 +106,6 @@ sport.addEventListener("change", (e) => {
     datosBusqueda.sport,
     datosBusqueda.gender
   );
-
   document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
   mostrarAthletes(resultado);
@@ -128,7 +113,6 @@ sport.addEventListener("change", (e) => {
 
 gender.addEventListener("change", (e) => {
   datosBusqueda.gender = e.target.value;
-
   const resultado = filtrarAthlete(
     data.athletes,
     datosBusqueda.team,
@@ -136,21 +120,20 @@ gender.addEventListener("change", (e) => {
     datosBusqueda.sport,
     datosBusqueda.gender
   );
-
   document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
   mostrarAthletes(resultado);
 });
 
-//Actualizala pagina al clickear el titulo
+//Actualizar con el titulo
 const refreshTitle = document.getElementById("title-refresh");
 refreshTitle.addEventListener("click", () => {
   document.getElementById("inicio").style.display = "none"; //oculto toda la seccion de inicio
   document.getElementById("primera").style.display = "block";
-  location.reload(); //método que actualiza la página.
+  location.reload(); //método que actualiza la página actual.
 });
 
-//Orden A-Z
+//Ordenamos la data de forma ascendente y descendente
 const ordenSelect = document.getElementById("filtro-orden");
 ordenSelect.addEventListener("change", () => {
   const ordenNombre = ordenSelect.value;
@@ -167,7 +150,7 @@ ordenSelect.addEventListener("change", () => {
   mostrarAthletes(dataOrden);
 });
 
-//Calculo cantidad de atletas
+//Calculoamos la cantidad de atletas por género
 const compute = document.getElementById("boton-calcular");
 compute.addEventListener("click", () => {
   let contadorFemenino = 0;
